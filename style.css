@@ -2,7 +2,11 @@
   /* Color scheme */
   --textcolor: #000000;
   --bgcolor: #f0f0f0;
-  --highlight: #3f6e8c;
+  --highlight: rgb(202,89,73);  /*rgb(202,89,73)rgb(254,113,93)rgb(253,155,141)rgb(254,211,205);
+  #CA5949
+  #FE715D
+  #FD9B8D
+  rgb(254,211,205);*/
 }
 @media (prefers-color-scheme: dark) {
   * {
@@ -53,6 +57,7 @@ section#home { /* Show #blog by default */
   font-family: sans-serif;
   letter-spacing: 0.03em;
   text-align: center;
+  width: 100%;
   position: absolute;
   z-index: 2;
 }
@@ -92,11 +97,34 @@ font-style: italic !important;
 font-family: "Open Sans", sans-serif;
 }
 
+.key_words { 
+margin: 10px 0px 10px 0px;
+color: #CA5949;
+font-size: 0.7em;
+font-family: "Open Sans", sans-serif;
+}
+
+
 .word { 
 text-indent: 30px; 
 -moz-hyphens: auto;
 -webkit-hyphens: auto;
 -ms-hyphens: auto;
+}
+
+.biblio { 
+font-size: 0.9em;
+}
+
+.cite_note-1 { 
+margin: 0px 0px 8px 0px;
+}
+
+
+.formula { 
+font-size: 1.2em;
+margin: 15px 0px 20px 0px;
+text-align: center;
 }
 
 kbd {
@@ -115,6 +143,7 @@ kbd {
 }
 
 h2, h3, h4 {
+  color: var(--highlight);
   font-weight: 600;
   margin: 16px 0vw 8px 0vw;
 }
@@ -132,6 +161,7 @@ h3 {
 
 h4 {
   font-size: 1.1em;
+  font-family: sans-serif;
   letter-spacing: 0.1em;
   text-align: center;
 }
@@ -151,19 +181,19 @@ sup {
 }
 
 pre, textarea { /* for code samples */
-  max-width: 98%;
+  max-width: 90%;
   font-size: .9em;
   color: inherit;
   line-height:inherit;
   padding:.6em .6em;
-  margin: 0em 0px 0px 3px;
+  margin: 0em 0px 0px 30px;
   position: relative;
   display: block;
   width: 100%;
   white-space: pre;
-  border: 1px solid #cfcfcf;
+/*  border: 1px solid #cfcfcf;rgba(255,211,205,.075);*/
   border-radius: 5px;
-  background:rgba(255,255,100,.075);
+  background:rgb(254,227,220);
   page-break-inside: avoid;
       white-space: pre;
     white-space: pre-wrap;
