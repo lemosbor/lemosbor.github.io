@@ -1,0 +1,238 @@
+* { box-sizing: border-box;
+  --textcolor: #000000;
+  --bgcolor: #f0f0f0;
+  --highlight: rgb(202,89,73);  /*rgb(202,89,73)rgb(254,113,93)rgb(253,155,141)rgb(254,211,205);
+  #CA5949
+  #FE715D
+  #FD9B8D
+  rgb(254,211,205);*/
+}
+::selection { /* выделенный текст */
+    color: #fff;
+    background: #CA5949;
+}
+@media (prefers-color-scheme: dark) { /* темная тема */
+  * {
+    --textcolor: #dadada;
+    --bgcolor: #343d46;
+    --highlight: #FE715D;
+  }
+}
+body {
+/*  font-size: 1em;
+  font-family: system-ui, sans-serif;*/
+  line-height: 1.2; /* межстрочный отступ */
+  color: var(--textcolor);
+  background: var(--bgcolor);
+   font-family: Cambria,Times New Roman,Times,FreeSerif,Noto Serif,serif,Monomakh Unicode,sans-serif,Calibri,Segoe UI;
+    font-size: 105%; /* размер текста */
+    /*margin: 0 auto;*/
+    max-width: 600px;
+    margin: 0 auto;
+}
+    #header,
+    #main,
+    section
+    {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+section {
+  padding: 70px 0vw 0vw 0vw;
+  display: none;
+   position: absolute;
+  top: 0;
+  min-height: 100vh;
+  width: 100%;
+  background: var(--bgcolor);
+}
+section:target { /* Отображаемая часть */
+  display: block;
+}
+section#home { /* отображаемая часть по умолчанию */
+  display: block;
+}
+#header { /* шапка */
+  font-size: 0.9em;
+  padding: 50px 0px 0px 0px;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+}
+#main {
+    padding: 70px 0vw 0vw 0vw;
+  position: absolute;
+  margin: 0vw 10px 0vw 10px;
+  min-height: 100vh;
+  width: 95%;
+}
+a {
+  color: var(--highlight);
+  text-decoration: none;
+/*  border-bottom: 1px dotted #f55;*/
+}
+ a:hover,
+ a:focus {
+  text-decoration:underline
+ }
+
+img{
+ display: block;
+ margin: 30px auto 30px auto;
+ max-width: 100%;
+}
+
+p {
+ text-align: justify;
+ line-height: 1.35;
+}
+
+.рисунок { 
+text-align: center;
+font-size: 0.9em;
+font-style: italic !important;
+font-family: "Open Sans", sans-serif;
+}
+/*.podpis::before {
+    color: #CA5949;
+    content: "Рисунок";
+}*/
+.ключ_слова { 
+margin: 10px 0px 10px 0px;
+color: #CA5949;
+font-size: 0.7em;
+font-family: "Open Sans", sans-serif;
+}
+.текст { 
+text-indent: 30px; 
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+margin: 8px 0px 0px 0px;
+}
+.библио li {
+margin: 0px 0px 6px 0px;
+font-size: 0.9em;
+}
+.формула { 
+font-size: 1.2em;
+margin: 15px 0px 20px 0px;
+text-align: center;
+}
+
+.автограф {
+font-size: 0.9em;
+text-align: center;
+color: #535353;
+}
+
+kbd { /* клавиша */
+  background-color: #e7e7e7;
+  background-image: -moz-linear-gradient(#fefefe, #e7e7e7);
+  background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
+  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-repeat: repeat-x;
+  border-radius: 5px;
+  border: 1px solid #cfcfcf;
+  color: #000;
+  padding: 3px 2px;
+  line-height: 10px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  display: inline-block;
+}
+h2, h3, h4 {
+  color: var(--highlight);
+  font-weight: 600;
+}
+h2 {
+  font-size: 1.3em;
+  letter-spacing: 0.15em;
+}
+h3 {
+  font-size: 1.3em;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+h4 {
+  font-size: 1.1em;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+ul > li::before { /* маркер списка */
+    position: absolute;
+    margin-left: -1.4em;
+    content: "•";
+}
+ul{
+  padding-left: 28px;
+  list-style:none
+}
+li {
+list-style-position: inside;
+ padding: 0px 0px 0px 0px;
+ line-height: 1.35;
+}
+ol {
+padding-left: 0px;
+}
+
+.список {
+  counter-reset: o-counter 0;
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  text-indent: 30px; 
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+-ms-hyphens: auto;
+  text-align: justify;
+
+}
+.список li:before {
+  content: counter(o-counter) ') ';
+  counter-increment: o-counter;
+}
+
+sup { /* ссылка */
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+pre, textarea { /* область кода */
+  max-width: 90%;
+  font-size: .9em;
+  color: inherit;
+  line-height:inherit;
+  padding:.6em .6em;
+  margin: 0em 0px 0px 30px;
+  position: relative;
+  display: block;
+  width: 100%;
+  white-space: pre;
+/*  border: 1px solid #cfcfcf;rgba(255,211,205,.075);*/
+  border-radius: 5px;
+  background:rgb(254,227,220);
+  page-break-inside: avoid;
+      white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+ padding: 0px 0px 0px 0px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*:lang(ru)   {    } Особые настройки для конкретного языка*/
