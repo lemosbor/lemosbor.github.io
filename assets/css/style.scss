@@ -2,22 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-h2 {
-  font-size: 1.2em;
-  letter-spacing: 0.15em;
-}
-h3 {
-  font-size: 1.1em;
-  letter-spacing: 0.15em;
-  text-align: center;
-}
-
-p {
-text-indent: 30px; 
-text-align: justify;
-line-height: 1.35;
--moz-hyphens: auto;
--webkit-hyphens: auto;
--ms-hyphens: auto;
-}
