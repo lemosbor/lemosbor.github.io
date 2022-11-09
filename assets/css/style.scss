@@ -2,3 +2,26 @@
 ---
 
 @import "{{ site.theme }}";
+
+
+body {
+--bgcolor: #f0f0f0;
+--textcolor: #000000;
+
+}
+
+a {
+  color: #FE715D;
+  text-decoration: none;
+}
+
+
+p {
+text-indent: 30px; 
+text-align: justify;
+line-height: 1.35;
+-moz-hyphens: auto;
+-webkit-hyphens: auto;
+-ms-hyphens: auto;
+}
+
