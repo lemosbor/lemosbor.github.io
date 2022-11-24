@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 2 -->
+<svg x="0" y="0" width="1466" height="825" viewBox="0 0 1466 825" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c_2"><path d="M0,0H1466V825H0Z"/></clipPath>
+<clipPath id="c0_2"><path d="M0,825V0H1466.6V825Z"/></clipPath>
+<clipPath id="c1_2"><path d="M328.9,619.6V71h674.6V619.6Z"/></clipPath>
+
+<style type="text/css"><![CDATA[
+text { white-space: pre; }
+path, image { pointer-events: none; }
+
+.s1_2{
+font-size: 16.80px;
+font-family: LiberationSansNarrow-Bold_z;
+fill: #404040;
+}
+.s2_2{
+font-size: 16.80px;
+font-family: LiberationSansNarrow_13;
+fill: #595959;
+}
+.s3_2{
+font-size: 16.20px;
+font-family: LiberationSansNarrow-Bold_z;
+fill: #595959;
+}
+.s4_2{
+font-size: 16.20px;
+font-family: LiberationSansNarrow_13;
+fill: #595959;
+}
+.s5_2{
+font-size: 16.80px;
+font-family: LiberationSansNarrow-Bold_z;
+fill: #595959;
+}
+
+.g0_2{
+fill: #FFF;
+}
+.g1_2{
+fill: none;
+stroke: #D9D9D9;
+stroke-width: 1.1;
+stroke-linejoin: bevel;
+}
+.g2_2{
+fill: none;
+stroke: #BFBFBF;
+stroke-width: 1.1;
+stroke-linejoin: bevel;
+}
+.g3_2{
+fill: none;
+stroke: #C00000;
+stroke-width: 3.117;
+stroke-linejoin: bevel;
+}
+.g4_2{
+fill: none;
+stroke: #2E75B6;
+stroke-width: 3.117;
+stroke-linejoin: bevel;
+}
+.g5_2{
+fill: none;
+stroke: #5EA616;
+stroke-width: 3.117;
+stroke-linejoin: bevel;
+}
+
+]]></style>
+
+</defs>
+<path d="M0,0
+L0,825
+L1466,825
+L1466,0 Z " 
+fill="#FFFFFF" stroke="none"/>
+<g clip-path="url(#c_2)">
+<g clip-path="url(#c0_2)">
+<path fill-rule="evenodd" d="M0,0H1466.6V825H0V0Z" class="g0_2"/>
+<path fill-rule="evenodd" d="M0,0H1466.7V825H0V0Z" class="g0_2"/>
+</g>
+<path fill-rule="evenodd" d="M329.4,71.5h673.7V619.2H329.4V71.5Z" class="g0_2"/>
+<path d="M401.3,519.5H973.6M401.3,483.7H973.6M401.3,447.8H973.6M401.3,411.9H973.6M401.3,376.1H973.6M401.3,340.2H973.6m-572.3,-36H973.6M401.3,268.5H973.6m-572.3,-36H973.6M401.3,196.6H973.6M401.3,160.8H973.6M401.3,124.9H973.6M401.3,89H973.6M515.7,89V555.5M630.2,89V555.5M744.8,89V555.5M859.2,89V555.5M973.6,89V555.5" class="g1_2"/>
+<path d="M401.3,555.5V89m0,466.5H973.6" class="g2_2"/>
+<path fill-rule="evenodd" d="M923.2,555.5c0,3.7,-3.1,6.7,-6.8,6.7c-3.7,0,-6.8,-3,-6.8,-6.7c0,-3.8,3.1,-6.8,6.8,-6.8c3.7,0,6.8,3,6.8,6.8Z" class="g0_2"/>
+<path d="M923.2,555.5c0,3.7,-3.1,6.7,-6.8,6.7c-3.7,0,-6.8,-3,-6.8,-6.7c0,-3.8,3.1,-6.8,6.8,-6.8c3.7,0,6.8,3,6.8,6.8Z" class="g3_2"/>
+<path fill-rule="evenodd" d="M618.6,104.7c0,4.2,-3.4,7.6,-7.5,7.6c-4.2,0,-7.5,-3.4,-7.5,-7.6c0,-4.1,3.3,-7.5,7.5,-7.5c4.1,0,7.5,3.4,7.5,7.5Z" class="g0_2"/>
+<path d="M618.6,104.7c0,4.2,-3.4,7.6,-7.5,7.6c-4.2,0,-7.5,-3.4,-7.5,-7.6c0,-4.1,3.3,-7.5,7.5,-7.5c4.1,0,7.5,3.4,7.5,7.5Z" class="g4_2"/>
+<path fill-rule="evenodd" d="M464.9,186.5c0,3.7,-3,6.8,-6.8,6.8c-3.7,0,-6.8,-3.1,-6.8,-6.8c0,-3.7,3.1,-6.8,6.8,-6.8c3.8,0,6.8,3.1,6.8,6.8Z" class="g0_2"/>
+<path d="M464.9,186.5c0,3.7,-3,6.8,-6.8,6.8c-3.7,0,-6.8,-3.1,-6.8,-6.8c0,-3.7,3.1,-6.8,6.8,-6.8c3.8,0,6.8,3.1,6.8,6.8Z" class="g5_2"/>
+<g clip-path="url(#c1_2)">
+<text x="932.3" y="561.6" dx="0,.1,0,.1,0,-.2,0" class="s1_2">7000 мс </text>
+<text x="627.8" y="110.9" dx="0,.1,0,0,.1,-.2,0" class="s1_2">4961 мс </text>
+<text x="474.1" y="192.7" dx="0,.1,0,0,.1,-.2,0" class="s1_2">3511 мс </text>
+<text x="378.9" y="561" class="s2_2">0 </text>
+<text x="371.3" y="525.1" class="s2_2">50 </text>
+<text x="363.6" y="489.2" dx="0,0,.1" class="s2_2">100 </text>
+<text x="363.6" y="453.3" dx="0,0,.1" class="s2_2">150 </text>
+<text x="363.6" y="417.4" dx="0,0,.1" class="s2_2">200 </text>
+<text x="363.6" y="381.6" dx="0,0,.1" class="s2_2">250 </text>
+<text x="363.6" y="345.7" dx="0,0,.1" class="s2_2">300 </text>
+<text x="363.6" y="309.8" dx="0,0,.1" class="s2_2">350 </text>
+<text x="363.6" y="273.9" dx="0,0,.1" class="s2_2">400 </text>
+<text x="363.6" y="238" dx="0,0,.1" class="s2_2">450 </text>
+<text x="363.6" y="202.1" dx="0,0,.1" class="s2_2">500 </text>
+<text x="363.6" y="166.4" dx="0,0,.1" class="s2_2">550 </text>
+<text x="363.6" y="130.3" dx="0,0,.1" class="s2_2">600 </text>
+<text x="363.6" y="94.6" dx="0,0,.1" class="s2_2">650 </text>
+<text x="385.9" y="581.5" dx="0,0,.1,-.2" class="s2_2">2500 </text>
+<text x="500.3" y="581.5" dx="0,.1,0,-.2" class="s2_2">3500 </text>
+<text x="614.9" y="581.5" dx="0,0,.1,-.2" class="s2_2">4500 </text>
+<text x="729.4" y="581.5" dx="0,0,.1,-.2" class="s2_2">5500 </text>
+<text x="843.8" y="581.5" dx="0,.1,0,-.2" class="s2_2">6500 </text>
+<text x="958.4" y="581.5" dx="0,0,0,-.2" class="s2_2">7500 </text>
+<text transform="matrix(0,-1,1,0,348,451.8)" dx="0,-.1,0,-.1,-.2,.1,-.2,.1,-.2,.2,-.1,-.1,0,0,0,-.1,-.1,0,.1,-.1,-.1,-.6,.1,-.1,-.1,.2,-.2,0,0" class="s3_2">Время на перемещения паальцев</text>
+<text transform="matrix(0,-1,1,0,348,230.8)" dx="0,-.1,-.3,.2,-.1,-.1,-.1,-.1,0,0" class="s4_2">, мс/слово </text>
+<text x="549.2" y="609.4" dx="0,0,0,0,0,.1,-.2,.1,.1,-.2,0,0,.1,0,.2,-.1,-.1,.1,.1,-.1" class="s5_2">Время на обдумывания</text>
+<text x="714.2" y="609.4" class="s2_2">, </text>
+<text x="725.4" y="609.4" dx="0,0,.1,0,.1,-.1,.1,0" class="s2_2">мс/слово </text>
+</g>
+<path d="M329.4,71.5h673.7V619.2H329.4V71.5Z" class="g1_2"/>
+<g clip-path="url(#c1_2)">
+<image preserveAspectRatio="none" x="540" y="117" width="154" height="47" xlink:href="2/img/1.png"/>
+<image preserveAspectRatio="none" x="410" y="200" width="104" height="78" xlink:href="2/img/2.png"/>
+<image preserveAspectRatio="none" x="864" y="506" width="97" height="29" xlink:href="2/img/3.png"/>
+</g>
+
+</g>
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: LiberationSansNarrow-Bold_z;
+	src: url("fonts/LiberationSansNarrow-Bold_z.woff") format("woff");
+}
+
+@font-face {
+	font-family: LiberationSansNarrow_13;
+	src: url("fonts/LiberationSansNarrow_13.woff") format("woff");
+}
+
+]]></style>
+
+</svg>
