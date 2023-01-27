@@ -148,4 +148,10 @@ view: — просмотреть файл. view: < help - отображение
 типы колонок: NO, DM, SEF, Z ширина: 0, 0, 5, 30% типы колонок строки: DC, A, Z, X
 
 ### Ассоциации файлов
-внутренний редактор *.txt, *.md, *.lua, *.ahk edit:"!.!"
+#### Внутренний редактор
+*.txt, *.md, *.lua, *.ahk, *.bas, *.ini
+edit:"!.!"
+
+#### Рисунки
+*.jpg, *.jpeg, *.gif
+"F:\JPEGViewPortable\JPEGViewPortable.exe" "!\!.!"
