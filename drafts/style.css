@@ -135,7 +135,7 @@ body {
 .category {
   display: flex;
   flex-direction: column;
-  width: 15%;
+  width: 49%;
 }
 
 .bookmark {
