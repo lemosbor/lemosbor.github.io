@@ -1,4 +1,4 @@
-# A<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/%D0%92%D0%9C%D0%A4_%D0%90%D0%B7.svg" width="50"/>
+# A<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/%D0%92%D0%9C%D0%A4_%D0%90%D0%B7.svg" width="35"/>
 
 - станина для пайки
 - штангенциркуль
