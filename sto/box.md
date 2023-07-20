@@ -10,7 +10,7 @@
 
 - батарейки
 
-# В
+# В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="40"/>
 - электроника
 - мультиметр
 - smd книжка
