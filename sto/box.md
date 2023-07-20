@@ -6,7 +6,7 @@
 
 
 
-# Б <img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/%D0%92%D0%9C%D0%A4_%D0%91%D1%83%D0%BA%D0%B8.svg" width="50"/>
+# Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/%D0%92%D0%9C%D0%A4_%D0%91%D1%83%D0%BA%D0%B8.svg" width="50"/>
 
 - батарейки
 
