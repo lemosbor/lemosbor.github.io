@@ -1,4 +1,4 @@
-# A<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/ВМФ_Аз.svg" width="35"/>
+# A<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/ВМФ_Аз.svg" width="30"/>
 
 - станина для пайки
 - штангенциркуль
@@ -10,12 +10,12 @@
 
 - батарейки
 
-# В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="40"/>
+# В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="30"/>
 - электроника
 - мультиметр
 - smd книжка
 
-# Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="40"/>
+# Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="30"/>
 - клеи
 - краски
 - болты
