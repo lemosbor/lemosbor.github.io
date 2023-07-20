@@ -6,7 +6,7 @@
 
 
 
-# Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки" width="30"/>
+# Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 
 - батарейки
 
