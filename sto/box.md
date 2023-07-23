@@ -22,7 +22,6 @@
 
 # Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="30"/>
 - клеи
-- краски
 - болты
 - пластилин
 - двусторонний скотч 
