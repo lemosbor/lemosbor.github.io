@@ -17,6 +17,8 @@
 - электроника
 - мультиметр
 - smd книжка
+- катушка проволоки 0,1 мм
+- батарейки
 
 # Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="30"/>
 - клеи
