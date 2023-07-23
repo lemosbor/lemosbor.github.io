@@ -11,7 +11,7 @@
 
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 
-- батарейки
+-
 
 # В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="30"/>
 - электроника
@@ -38,7 +38,7 @@
 - колпачки клавиатуры
 
 # М<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ВМФ_Мыслете.svg" width="30"/>
-- пуговицы мебельные и принадлежности
+- батарейки
 
 # Н<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/ВМФ_Наш.svg" width="30"/>
 
