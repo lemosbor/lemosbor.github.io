@@ -1,5 +1,4 @@
 # A<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/ВМФ_Аз.svg" width="30"/>
-
 - станина для пайки
 - штангенциркуль и линейка
 - навигатор
@@ -7,11 +6,9 @@
 - usb-c—usb-a
 - зарядка usb-b (для пояс.камеры)
 
-
-
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
-
--
+- детали клавиатуры
+- отпечатки
 
 # В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="30"/>
 - электроника
@@ -28,11 +25,17 @@
 
 # Д<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ВМФ_Добро.svg" width="30"/>
 
-# E<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/ВМФ_Есть.svg" width="30"/>
+# E<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/ВМФ_Есть.svg" width="30"/> 
+(Концелярские)
+- перо угловое и перья
+- перьевые ручки
+- набор карандашей
+- стержни цветные
+- обложка паспорта
+- пластилин полимерный (зел, жел, фио)
+Поливаново | мансарда
 
 # Ж<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ВМФ_Живете.svg" width="30"/>
-- детали клавиатуры
-- отпечатки
 
 # З<img src="https://upload.wikimedia.org/wikipedia/commons/7/76/ВМФ_Земля.svg" width="30"/>
 - колпачки клавиатуры
@@ -41,6 +44,10 @@
 - батарейки
 
 # Н<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/ВМФ_Наш.svg" width="30"/>
+- кабура
+- фонарики
+- термометр сантехнический (0—120)
+- парафин лыжный 
 
 # Р<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/ВМФ_Рцы.svg" width="30"/>
 - ремни
@@ -49,10 +56,6 @@
 - снасти рыболовные
 
 # Т<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/ВМФ_Твердо.svg" width="30"/>
-- парафин лыжный 
-- фанарики
-- термометр сантехнический
-- кабура
 
 # У<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/ВМФ_Ухо.svg" width="30"/>
 - коптер и запчасти
@@ -72,23 +75,21 @@
 - Штативы и крепления для камер
 
 # Щ<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ВМФ_Ща.svg" width="30"/>
-(Концелярские)
-- перо угловое 
-- перьевые ручки
-- набор карандашей
-- стержни цветные
-- перья
-- пластилин полимерный  
 
 
 # Э<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/ВМФ_Э_оборотное.svg" width="30"/>
 - кабели и клеммы
 - съёмник изоляции
 - обжимщик клемм
-- 
+
 
 # Ю<img src="https://upload.wikimedia.org/wikipedia/commons/2/23/ВМФ_Юла.svg" width="30"/>
-
+- масло для бритья и дез
+- губка для чистки туристического фильтра
+- хлястики для ключей и прочего
+- навигатор гармин красный
+Поливаново | мансарда
+  
 # Я<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/ВМФ_Яко.svg" width="30"/>
 - колпачки кремовые
 - провода
