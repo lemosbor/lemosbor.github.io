@@ -40,6 +40,9 @@
 # З<img src="https://upload.wikimedia.org/wikipedia/commons/7/76/ВМФ_Земля.svg" width="30"/>
 - колпачки клавиатуры
 
+# И<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ВМФ_Иже.svg" width="30"/>
+- Инструменты
+
 # М<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ВМФ_Мыслете.svg" width="30"/>
 - батарейки
 
