@@ -88,21 +88,21 @@
 
 <pre>
 <b><u>ДЛИНА   %    ДГР</u></b>
-1  12 %  <img src="/img/o.jpg" height=12 width=330>
-2  10 %  <img src="/img/o.jpg" height=12 width=276>
-3  10 %  <img src="/img/o.jpg" height=12 width=265>
-4   8 %  <img src="/img/o.jpg" height=12 width=212>
-5  10 %  <img src="/img/o.jpg" height=12 width=277>
-6  10 %  <img src="/img/o.jpg" height=12 width=277>
-7  10 %  <img src="/img/o.jpg" height=12 width=256>
-8   8 %  <img src="/img/o.jpg" height=12 width=213>
-9   6 %  <img src="/img/o.jpg" height=12 width=160>
-10  5 %  <img src="/img/o.jpg" height=12 width=134>
-11  4 %  <img src="/img/o.jpg" height=12 width=93>
-12  3 %  <img src="/img/o.jpg" height=12 width=68>
-13  2 %  <img src="/img/o.jpg" height=12 width=40>
-14  1 %  <img src="/img/o.jpg" height=12 width=24>
-15  1 %  <img src="/img/o.jpg" height=12 width=13>
+1      12 %  <img src="/img/o.jpg" height=12 width=330>
+2      10 %  <img src="/img/o.jpg" height=12 width=276>
+3      10 %  <img src="/img/o.jpg" height=12 width=265>
+4       8 %  <img src="/img/o.jpg" height=12 width=212>
+5      10 %  <img src="/img/o.jpg" height=12 width=277>
+6      10 %  <img src="/img/o.jpg" height=12 width=277>
+7      10 %  <img src="/img/o.jpg" height=12 width=256>
+8       8 %  <img src="/img/o.jpg" height=12 width=213>
+9       6 %  <img src="/img/o.jpg" height=12 width=160>
+10      5 %  <img src="/img/o.jpg" height=12 width=134>
+11      4 %  <img src="/img/o.jpg" height=12 width=93>
+12      3 %  <img src="/img/o.jpg" height=12 width=68>
+13      2 %  <img src="/img/o.jpg" height=12 width=40>
+14      1 %  <img src="/img/o.jpg" height=12 width=24>
+15      1 %  <img src="/img/o.jpg" height=12 width=13>
 </pre>
 
 
@@ -126,7 +126,7 @@
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
 о     11,0 %  <img src="/img/o.jpg" height=12 width=330>
-е      8,3 %   <img src="/img/o.jpg" height=12 width=249>
+е      8,3 %  <img src="/img/o.jpg" height=12 width=249>
 а      7,9 %  <img src="/img/o.jpg" height=12 width=237>
 и      7,0 %  <img src="/img/o.jpg" height=12 width=210>
 н      7,0 %  <img src="/img/o.jpg" height=12 width=210>
