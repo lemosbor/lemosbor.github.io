@@ -125,8 +125,8 @@
 
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
-о      11,0 %  <img src="/img/o.jpg" height=12 width=330>
-е      8,3 %  <img src="/img/o.jpg" height=12 width=249>
+о     11,0 %  <img src="/img/o.jpg" height=12 width=330>
+е      8,3 %   <img src="/img/o.jpg" height=12 width=249>
 а      7,9 %  <img src="/img/o.jpg" height=12 width=237>
 и      7,0 %  <img src="/img/o.jpg" height=12 width=210>
 н      7,0 %  <img src="/img/o.jpg" height=12 width=210>
