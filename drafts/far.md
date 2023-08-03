@@ -20,8 +20,6 @@
 Для применения измнений запустить команду для обновления настроек Far.exe /import KeyBarLabels.farconfig
 
 
-
-
 ## Почему я стал использовать FAR
    В 2021 году я решил максимально использовать клавиатуру, чтобы не отвлекаться
 на мышку и не тратить драгоценное время на перетаскивание файликов из папочки  в
@@ -63,17 +61,17 @@ User_Dict.dic и с следующей структурой:
 
 6. В файле добавить LuaSpell.lua:
 
-  { lng = "rus",
-    desc = "OOoUserDict",
-    Type = "UserDict",
-    WordType = "enabled",
-    StrToPath = false,
-    path = DictionaryPath,
-    filename = "User_Dict",
-    match = DicMatch,
-    Enabled = true,
-    BreakOnMatch = true,
-  },
+	  { lng = "rus",
+	    desc = "OOoUserDict",
+	    Type = "UserDict",
+	    WordType = "enabled",
+	    StrToPath = false,
+	    path = DictionaryPath,
+	    filename = "User_Dict",
+	    match = DicMatch,
+	    Enabled = true,
+	    BreakOnMatch = true,
+	  },
 
 Для подсветки задать цвет:
 
