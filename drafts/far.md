@@ -52,15 +52,16 @@
 5. Создать пользовательский словарь исключений в папке \Profile\Dictionaries под названием
 User_Dict.dic и с следующей структурой:
 
-	OOoUserDict1
-	lang: rus
-	type: positive
-	---
-	Абракадабра
-	Броведено
+`	OOoUserDict1
+`	lang: rus
+`	type: positive
+`	---
+`	Абракадабра
+`	Броведено
 
 6. В файле добавить LuaSpell.lua:
-
+   
+`
 	  { lng = "rus",
 	    desc = "OOoUserDict",
 	    Type = "UserDict",
@@ -72,6 +73,7 @@ User_Dict.dic и с следующей структурой:
 	    Enabled = true,
 	    BreakOnMatch = true,
 	  },
+`
 
 Для подсветки задать цвет:
 
