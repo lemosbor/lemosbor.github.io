@@ -59,7 +59,7 @@ User_Dict.dic и с следующей структурой:
 `	Абракадабра  `  
 `	Броведено  ` 
 
-6. В файле добавить LuaSpell.lua:
+6. В файле добавить LuaSpell.lua:  
 
 	lng = "rus",
 	desc = "OOoUserDict",
