@@ -71,7 +71,7 @@ User_Dict.dic и с следующей структурой:
 	match = DicMatch,
 	Enabled = true,
 	BreakOnMatch = true,
-	`},`
+	`}`
 
 Для подсветки задать цвет:
 
