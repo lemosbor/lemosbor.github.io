@@ -61,17 +61,17 @@ User_Dict.dic и с следующей структурой:
 
 6. В файле добавить LuaSpell.lua:
 
-	  { lng = "rus",
-	    desc = "OOoUserDict",
-	    Type = "UserDict",
-	    WordType = "enabled",
-	    StrToPath = false,
-	    path = DictionaryPath,
-	    filename = "User_Dict",
-	    match = DicMatch,
-	    Enabled = true,
-	    BreakOnMatch = true,
-	  },
+	{ lng = "rus",
+	desc = "OOoUserDict",
+	Type = "UserDict",
+	WordType = "enabled",
+	StrToPath = false,
+	path = DictionaryPath,
+	filename = "User_Dict",
+	match = DicMatch,
+	Enabled = true,
+	BreakOnMatch = true,
+	},
 
 Для подсветки задать цвет:
 
