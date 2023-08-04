@@ -15,9 +15,19 @@
 Для отключения автоматического переключения системной раскладки после ретранслитерации
 необходим заменить параметр в строке <setting key="XLat" name="Flags" type="qword" value="0000000000010001" />
 с 0000000000010001 на 0000000000010002.
+
 ### Подписи линейки функциональных клавиш
 Замена подписей функциональных кловиш осуществляется с помощью файла Addons\SetUp\KeyBarLabels.farconfig
 Для применения измнений запустить команду для обновления настроек Far.exe /import KeyBarLabels.farconfig
+
+	<setting key="KeyBarLabels.Russian.Shell" name="F1" type="text" value="Справка" />
+        <setting key="KeyBarLabels.Russian.Shell" name="F2" type="text" value="Команды" />
+        <setting key="KeyBarLabels.Russian.Shell" name="F9" type="text" value="Меню" />
+        <setting key="KeyBarLabels.Russian.Shell" name="ShiftF1" type="text" value="Архив" />
+        <setting key="KeyBarLabels.Russian.Shell" name="ShiftF4" type="text" value="Создать" />
+        <setting key="KeyBarLabels.Russian.Editor" name="F3" type="text" value="Расположен" />
+        <setting key="KeyBarLabels.Russian.Editor" name="F9" type="text" value="Орфография" />
+
 ### Редактор конфигурации
 Запуск редактора конфигурации осуществляется из командной строки по команде far:config
 Чтобы файлы всегда создавались без BOM, можно задать специальный параметр Editor.AddUnicodeBOM = false
