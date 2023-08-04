@@ -104,6 +104,7 @@ User_Dict.dic и с следующей структурой:
 	FindPrev    = "ShiftF16",      --   - предыдущее ошибочное слово.
 
 https://kitscenarist.ru/downloads/hunspell/
+https://github.com/LibreOffice/dictionaries/tree/master
 
 ### MoreHistory - продвинутая история просмотра  папок  и  файлов.  Продвинутость
 заключается в том, что после того, как ты запустил  плагин,  начинаешь  печатать
