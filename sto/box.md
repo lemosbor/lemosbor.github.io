@@ -44,6 +44,11 @@
 # И<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ВМФ_Иже.svg" width="30"/>
 - Инструменты
 
+клавиатуры
+
+# Й<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ВМФ_Иже.svg" width="30"/>
+- краски модельные, грунтовка, пипетки
+
 # М<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ВМФ_Мыслете.svg" width="30"/>
 - батарейки
 
@@ -60,6 +65,8 @@
 - снасти рыболовные
 
 # Т<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/ВМФ_Твердо.svg" width="30"/>
+- светильник газовый
+- клаксон походный
 
 # У<img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/ВМФ_Ухо.svg" width="30"/>
 - коптер и запчасти
