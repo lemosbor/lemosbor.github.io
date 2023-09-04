@@ -42,12 +42,20 @@ text-align: justify;
 -ms-hyphens: auto;
 }
 
-code, pre {
+code {
  font-family:Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; 
 line-height: 1.2;
+}
+
+pre {
+ font-family:Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace; 
+line-height: 1.2;
+padding: none;
+border: none;
 }
 
 table,
 td {
   border: 0px;
+  text-align: none;
 }
