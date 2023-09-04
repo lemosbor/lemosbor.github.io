@@ -57,9 +57,5 @@ border: none;
 table,
 td {
   border: 0px;
-  text-align: none;
 }
-
-table.right td {
-    text-align: right;
-}
+.right { text-align: right;}
