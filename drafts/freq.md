@@ -167,6 +167,7 @@
 
 <table>
 <tr>
+<td>
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
 о     11,0 %  <img src="/img/o.jpg" height=12 width=330>
@@ -203,8 +204,8 @@
 э      0,3 %  <img src="/img/o.jpg" height=12 width=9>
 ъ      0,1 %  <img src="/img/o.jpg" height=12 width=2>
 </pre>
-</tr>
-<tr>
+</td>
+<td>
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
 о     11,0 %  <img src="/img/o.jpg" height=12 width=330>
@@ -241,5 +242,6 @@
 э      0,3 %  <img src="/img/o.jpg" height=12 width=9>
 ъ      0,1 %  <img src="/img/o.jpg" height=12 width=2>
 </pre>
+</td>
 </tr>
 </table>
