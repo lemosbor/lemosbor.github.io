@@ -175,7 +175,7 @@
 <tr>
 <td class="right">
 <pre>
-<b><u>Частота слов с буквой в начале</u></b>
+<b><u>% слов с буквой в начале</u></b>
 <img src="/img/o.jpg" height=12 width=78 >  6,8 %
 <img src="/img/o.jpg" height=12 width=35 >  3,1 %
 <img src="/img/o.jpg" height=12 width=83 >  7,3 %
@@ -211,7 +211,7 @@
 </td>
 <td>
 <pre>
-<b><u>БУКВА   Частота слов с буквой в конце</u></b>
+<b><u>БУКВА   % слов с буквой в конце</u></b>
 о      11,0 %  <img src="/img/o.jpg" height=12 width=126>
 и       9,8 %  <img src="/img/o.jpg" height=12 width=112>
 в       2,4 %  <img src="/img/o.jpg" height=12 width=28>
