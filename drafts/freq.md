@@ -170,36 +170,36 @@
 <td align="right">
 <pre>
 <b><u>%</u></b>
-<img src="/img/o.jpg" height=12 width=126>  6,8 %
-<img src="/img/o.jpg" height=12 width=112>  3,1 %
-<img src="/img/o.jpg" height=12 width=28 >  7,3 %
-<img src="/img/o.jpg" height=12 width=125>  1,8 %
-<img src="/img/o.jpg" height=12 width=108>  1,3 %
-<img src="/img/o.jpg" height=12 width=9  > 10,7 %
-<img src="/img/o.jpg" height=12 width=2  > 13,1 %
-<img src="/img/o.jpg" height=12 width=15 >  6,0 %
-<img src="/img/o.jpg" height=12 width=100>  0,4 %
-<img src="/img/o.jpg" height=12 width=68 >  4,6 %
-<img src="/img/o.jpg" height=12 width=51 >  4,8 %
-<img src="/img/o.jpg" height=12 width=26 >  5,9 %
-<img src="/img/o.jpg" height=12 width=40 >  2,9 %
-<img src="/img/o.jpg" height=12 width=71 >  0,0 %
-<img src="/img/o.jpg" height=12 width=11 >  5,7 %
-<img src="/img/o.jpg" height=12 width=78 >  0,0 %
-<img src="/img/o.jpg" height=12 width=36 >  1,9 %
-<img src="/img/o.jpg" height=12 width=10 >  4,4 %
-<img src="/img/o.jpg" height=12 width=2  >  4,1 %
-<img src="/img/o.jpg" height=12 width=43 >  0,9 %
-<img src="/img/o.jpg" height=12 width=6  >  2,9 %
-<img src="/img/o.jpg" height=12 width=34 >  0,0 %
-<img src="/img/o.jpg" height=12 width=3  >  3,2 %
-<img src="/img/o.jpg" height=12 width=5  >  3,1 %
-<img src="/img/o.jpg" height=12 width=26 >  0,1 %
-<img src="/img/o.jpg" height=12 width=0  >  1,9 %
-<img src="/img/o.jpg" height=12 width=1  >  0,9 %
-<img src="/img/o.jpg" height=12 width=1  >  1,0 %
-<img src="/img/o.jpg" height=12 width=3  >  0,5 %
-<img src="/img/o.jpg" height=12 width=1  >  0,5 %
+<img src="/img/o.jpg" height=12 width=78 >  6,8 %
+<img src="/img/o.jpg" height=12 width=35 >  3,1 %
+<img src="/img/o.jpg" height=12 width=83 >  7,3 %
+<img src="/img/o.jpg" height=12 width=21 >  1,8 %
+<img src="/img/o.jpg" height=12 width=15 >  1,3 %
+<img src="/img/o.jpg" height=12 width=122> 10,7 %
+<img src="/img/o.jpg" height=12 width=150> 13,1 %
+<img src="/img/o.jpg" height=12 width=69 >  6,0 %
+<img src="/img/o.jpg" height=12 width=4  >  0,4 %
+<img src="/img/o.jpg" height=12 width=53 >  4,6 %
+<img src="/img/o.jpg" height=12 width=55 >  4,8 %
+<img src="/img/o.jpg" height=12 width=68 >  5,9 %
+<img src="/img/o.jpg" height=12 width=34 >  2,9 %
+<img src="/img/o.jpg" height=12 width=0  >  0,0 %
+<img src="/img/o.jpg" height=12 width=65 >  5,7 %
+<img src="/img/o.jpg" height=12 width=0  >  0,0 %
+<img src="/img/o.jpg" height=12 width=22 >  1,9 %
+<img src="/img/o.jpg" height=12 width=50 >  4,4 %
+<img src="/img/o.jpg" height=12 width=46 >  4,1 %
+<img src="/img/o.jpg" height=12 width=11 >  0,9 %
+<img src="/img/o.jpg" height=12 width=33 >  2,9 %
+<img src="/img/o.jpg" height=12 width=0  >  0,0 %
+<img src="/img/o.jpg" height=12 width=36 >  3,2 %
+<img src="/img/o.jpg" height=12 width=35 >  3,1 %
+<img src="/img/o.jpg" height=12 width=1  >  0,1 %
+<img src="/img/o.jpg" height=12 width=21 >  1,9 %
+<img src="/img/o.jpg" height=12 width=10 >  0,9 %
+<img src="/img/o.jpg" height=12 width=11 >  1,0 %
+<img src="/img/o.jpg" height=12 width=6  >  0,5 %
+<img src="/img/o.jpg" height=12 width=6  >  0,5 %
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %
 </pre>
 </td>
