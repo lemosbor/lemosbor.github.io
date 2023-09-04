@@ -167,7 +167,7 @@
 
 <table border="0">
 <tr>
-<td align="right">
+<td align="right" border="0">
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
 <img src="/img/o.jpg" height=12 width=126>  6,8 %
@@ -203,7 +203,7 @@
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %
 </pre>
 </td>
-<td>
+<td border="0">
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
 о      11 %  <img src="/img/o.jpg" height=12 width=126>
