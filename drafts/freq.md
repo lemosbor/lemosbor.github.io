@@ -167,9 +167,9 @@
 
 <table cellspacing="0" cellpadding="0" border="0">
 <tr>
-<td align="right">
+<td class="right">
 <pre>
-<b><u>%</u></b>
+<b><u> </u></b>
 <img src="/img/o.jpg" height=12 width=78 >  6,8 %
 <img src="/img/o.jpg" height=12 width=35 >  3,1 %
 <img src="/img/o.jpg" height=12 width=83 >  7,3 %
@@ -205,7 +205,7 @@
 </td>
 <td>
 <pre>
-<b><u>БУКВА   %    ДГР</u></b>
+<b><u>БУКВА</u></b>
 о      11,0 %  <img src="/img/o.jpg" height=12 width=126>
 и       9,8 %  <img src="/img/o.jpg" height=12 width=112>
 в       2,4 %  <img src="/img/o.jpg" height=12 width=28>
