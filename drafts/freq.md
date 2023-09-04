@@ -247,3 +247,70 @@
 </td>
 </tr>
 </table>
+
+
+Примечание: указана частота для последовательности биграмм в предложениях, то есть учитываются биграммы с пробелами (буквы в конце и в начале слова). Если их не учитывать, указанная частота будет больше.
+
+Обратите внимание, что биграммы ст то на но встречаются чаще, чем буквы й ж х ш ю ё ц ф щ э ъ.
+То есть если отказаться от буквы редко используемой `ё`, заменив её на биграмму йо, а биграмму ст заменить на соответствующую ей букву например `s`, то измеряемый в буквах объем книг и текстов уменьшится на 0,7 %.
+Примерно на это же значение увеличится скорость набора и чтения текста.
+
+<pre>
+<b><u>БГ   %    ДГР</u></b>
+ст      1,4 %  <img src="/img/o.jpg" height=12 width=300>
+то      1,4 %  <img src="/img/o.jpg" height=12 width=285>
+на      1,2 %  <img src="/img/o.jpg" height=12 width=263>
+но      1,2 %  <img src="/img/o.jpg" height=12 width=260>
+ен      1,1 %  <img src="/img/o.jpg" height=12 width=239>
+ни      1,1 %  <img src="/img/o.jpg" height=12 width=234>
+по      1,0 %  <img src="/img/o.jpg" height=12 width=220>
+ра      1,0 %  <img src="/img/o.jpg" height=12 width=215>
+ов      1,0 %  <img src="/img/o.jpg" height=12 width=208>
+не      1,0 %  <img src="/img/o.jpg" height=12 width=204>
+ро      0,9 %  <img src="/img/o.jpg" height=12 width=198>
+ко      0,9 %  <img src="/img/o.jpg" height=12 width=190>
+пр      0,9 %  <img src="/img/o.jpg" height=12 width=184>
+ре      0,8 %  <img src="/img/o.jpg" height=12 width=167>
+го      0,8 %  <img src="/img/o.jpg" height=12 width=166>
+ос      0,8 %  <img src="/img/o.jpg" height=12 width=162>
+ал      0,8 %  <img src="/img/o.jpg" height=12 width=160>
+та      0,7 %  <img src="/img/o.jpg" height=12 width=153>
+от      0,7 %  <img src="/img/o.jpg" height=12 width=152>
+во      0,7 %  <img src="/img/o.jpg" height=12 width=149>
+ва      0,7 %  <img src="/img/o.jpg" height=12 width=148>
+ер      0,7 %  <img src="/img/o.jpg" height=12 width=147>
+ли      0,7 %  <img src="/img/o.jpg" height=12 width=146>
+ть      0,7 %  <img src="/img/o.jpg" height=12 width=143>
+ор      0,7 %  <img src="/img/o.jpg" height=12 width=142>
+од      0,7 %  <img src="/img/o.jpg" height=12 width=141>
+ка      0,7 %  <img src="/img/o.jpg" height=12 width=141>
+ет      0,7 %  <img src="/img/o.jpg" height=12 width=139>
+ан      0,7 %  <img src="/img/o.jpg" height=12 width=139>
+ла      0,7 %  <img src="/img/o.jpg" height=12 width=139>
+те      0,7 %  <img src="/img/o.jpg" height=12 width=138>
+ол      0,6 %  <img src="/img/o.jpg" height=12 width=136>
+ат      0,6 %  <img src="/img/o.jpg" height=12 width=129>
+ом      0,6 %  <img src="/img/o.jpg" height=12 width=129>
+он      0,6 %  <img src="/img/o.jpg" height=12 width=125>
+ел      0,6 %  <img src="/img/o.jpg" height=12 width=124>
+де      0,6 %  <img src="/img/o.jpg" height=12 width=121>
+ес      0,6 %  <img src="/img/o.jpg" height=12 width=119>
+ти      0,6 %  <img src="/img/o.jpg" height=12 width=117>
+ль      0,5 %  <img src="/img/o.jpg" height=12 width=114>
+ри      0,5 %  <img src="/img/o.jpg" height=12 width=114>
+ле      0,5 %  <img src="/img/o.jpg" height=12 width=114>
+ит      0,5 %  <img src="/img/o.jpg" height=12 width=113>
+ны      0,5 %  <img src="/img/o.jpg" height=12 width=112>
+за      0,5 %  <img src="/img/o.jpg" height=12 width=112>
+ве      0,5 %  <img src="/img/o.jpg" height=12 width=111>
+ме      0,5 %  <img src="/img/o.jpg" height=12 width=111>
+ог      0,5 %  <img src="/img/o.jpg" height=12 width=110>
+ло      0,5 %  <img src="/img/o.jpg" height=12 width=109>
+да      0,5 %  <img src="/img/o.jpg" height=12 width=105>
+</pre>
+
+Примечание: указана частота для последовательности биграмм в предложениях, то есть учитываются биграммы с пробелами (буквы в конце и в начале слова). Если их не учитывать, указанная частота будет больше.
+
+Обратите внимание, что биграммы ст то на но встречаются чаще, чем буквы й ж х ш ю ё ц ф щ э ъ.
+То есть если отказаться от буквы редко используемой `ё`, заменив её на биграмму йо, а биграмму ст заменить на соответствующую ей букву например `s`, то измеряемый в буквах объем книг и текстов уменьшится на 0,7 %.
+Примерно на это же значение увеличится скорость набора и чтения текста.
