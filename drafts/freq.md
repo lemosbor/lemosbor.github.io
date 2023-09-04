@@ -165,9 +165,9 @@
 постоянно меняются друг с другом местами в зависимости от анализирумого корпуса и расставить их в однозначном 
 порядке для всех корпусов невозможно. 
 
-<table border="0">
-<tr border="0">
-<td align="right" border="0">
+<table cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td align="right">
 <pre>
 <b><u>%</u></b>
 <img src="/img/o.jpg" height=12 width=126>  6,8 %
@@ -203,7 +203,7 @@
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %
 </pre>
 </td>
-<td border="0">
+<td>
 <pre>
 <b><u>БУКВА   %    ДГР</u></b>
 о      11,0 %  <img src="/img/o.jpg" height=12 width=126>
