@@ -429,3 +429,5 @@
 <tr><td width=10>э</td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td></tr>
 <tr><td width=10>ъ</td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#cac8c8"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#d0afaa"></td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#d0afaa"></td></tr>
 </table>
+
+
