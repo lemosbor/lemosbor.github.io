@@ -394,5 +394,5 @@
 
 
 <table>
-<tr><td width=10 bgcolor="red"></td><td width=10 bgcolor="red"></td><td width=10 bgcolor="red"></td><td width=10 bgcolor="red"></td><td width=10 bgcolor="red"></td><td width=10 bgcolor="red"></td></tr>
+<tr><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fe715d"></td><td width=10 bgcolor="#fd9b8d"></td></tr>
 </table>
