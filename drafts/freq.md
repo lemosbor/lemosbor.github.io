@@ -394,6 +394,6 @@
 
 
 <table>
-<tr></tr><td width=10><td width=10>_</td><td width=10>о</td><td width=10>е</td><td width=10>а</td><td width=10>и</td><td width=10>н</td><td width=10>т</td><td width=10>с</td><td width=10>л</td><td width=10>в</td></tr>
-<tr></tr>_<td width=10 bgcolor="#<td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fe715d"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fe715d"></td></tr>
+<tr><td width=10></td><td width=10>_</td><td width=10>о</td><td width=10>е</td><td width=10>а</td><td width=10>и</td><td width=10>н</td><td width=10>т</td><td width=10>с</td><td width=10>л</td><td width=10>в</td></tr>
+<tr><td width=10 bgcolor="#_"></td><td width=10 bgcolor="#b4b2b2"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#ca5949"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fe715d"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fd9b8d"></td><td width=10 bgcolor="#fe715d"></td></tr>
 </table>
