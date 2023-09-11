@@ -7,7 +7,6 @@
 
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 - детали клавиатуры
-- отпечатки
 
 # В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="30"/>
 - электроника
@@ -81,6 +80,7 @@
 # Х<img src="https://upload.wikimedia.org/wikipedia/commons/6/60/ВМФ_Ха.svg" width="30"/>
 - перчатки
 - маски
+- бахилы
 
 # Ш<img src="https://upload.wikimedia.org/wikipedia/commons/4/43/ВМФ_Шапка.svg" width="30"/>
 - Штативы и крепления для камер
@@ -107,3 +107,8 @@
 - хлястики для ключей и прочего
 - навигатор гармин красный
 плв | мансарда
+
+# Спортивный ящик (сени)
+- очки для плавания
+- диаболо
+- перчатки боксерские
