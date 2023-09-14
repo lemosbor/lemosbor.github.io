@@ -176,34 +176,34 @@
 <td class="right">
 <pre>
 <b><u>% слов с буквой в начале  </u></b>
-<img src="/img/o.jpg" height=12 width=78 >  6,8 %  
+<img src="/img/o.jpg" height=12 width=78 >  7,0 %  
 <img src="/img/o.jpg" height=12 width=35 >  3,1 %  
-<img src="/img/o.jpg" height=12 width=83 >  7,3 %  
+<img src="/img/o.jpg" height=12 width=83 >  7,4 %  
 <img src="/img/o.jpg" height=12 width=21 >  1,8 %  
-<img src="/img/o.jpg" height=12 width=15 >  1,3 %  
+<img src="/img/o.jpg" height=12 width=15 >  1,2 %  
 <img src="/img/o.jpg" height=12 width=122> 10,7 %  
-<img src="/img/o.jpg" height=12 width=150> 13,1 %  
+<img src="/img/o.jpg" height=12 width=150> 13,4 %  
 <img src="/img/o.jpg" height=12 width=69 >  6,0 %  
-<img src="/img/o.jpg" height=12 width=4  >  0,4 %  
-<img src="/img/o.jpg" height=12 width=53 >  4,6 %  
-<img src="/img/o.jpg" height=12 width=55 >  4,8 %  
+<img src="/img/o.jpg" height=12 width=4  >  0,3 %  
+<img src="/img/o.jpg" height=12 width=53 >  4,5 %  
+<img src="/img/o.jpg" height=12 width=55 >  4,9 %  
 <img src="/img/o.jpg" height=12 width=68 >  5,9 %  
-<img src="/img/o.jpg" height=12 width=34 >  2,9 %  
+<img src="/img/o.jpg" height=12 width=34 >  3,0 %  
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %  
 <img src="/img/o.jpg" height=12 width=65 >  5,7 %  
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %  
-<img src="/img/o.jpg" height=12 width=22 >  1,9 %  
+<img src="/img/o.jpg" height=12 width=22 >  1,8 %  
 <img src="/img/o.jpg" height=12 width=50 >  4,4 %  
-<img src="/img/o.jpg" height=12 width=46 >  4,1 %  
+<img src="/img/o.jpg" height=12 width=46 >  4,0 %  
 <img src="/img/o.jpg" height=12 width=11 >  0,9 %  
-<img src="/img/o.jpg" height=12 width=33 >  2,9 %  
+<img src="/img/o.jpg" height=12 width=33 >  3,0 %  
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %  
-<img src="/img/o.jpg" height=12 width=36 >  3,2 %  
-<img src="/img/o.jpg" height=12 width=35 >  3,1 %  
+<img src="/img/o.jpg" height=12 width=36 >  3,3 %  
+<img src="/img/o.jpg" height=12 width=35 >  3,0 %  
 <img src="/img/o.jpg" height=12 width=1  >  0,1 %  
 <img src="/img/o.jpg" height=12 width=21 >  1,9 %  
 <img src="/img/o.jpg" height=12 width=10 >  0,9 %  
-<img src="/img/o.jpg" height=12 width=11 >  1,0 %  
+<img src="/img/o.jpg" height=12 width=11 >  0,9 %  
 <img src="/img/o.jpg" height=12 width=6  >  0,5 %  
 <img src="/img/o.jpg" height=12 width=6  >  0,5 %  
 <img src="/img/o.jpg" height=12 width=0  >  0,0 %  
@@ -212,30 +212,30 @@
 <td>
 <pre>
 <b><u>БУКВА   % слов с буквой в конце</u></b>
-о      11,0 %  <img src="/img/o.jpg" height=12 width=126>
-и       9,8 %  <img src="/img/o.jpg" height=12 width=112>
-в       2,4 %  <img src="/img/o.jpg" height=12 width=28>
-е      11,0 %  <img src="/img/o.jpg" height=12 width=125>
-а      	9,4 %  <img src="/img/o.jpg" height=12 width=108>
-с      	0,8 %  <img src="/img/o.jpg" height=12 width=9>
+о      11,2 %  <img src="/img/o.jpg" height=12 width=126>
+и       9,9 %  <img src="/img/o.jpg" height=12 width=112>
+в       2,3 %  <img src="/img/o.jpg" height=12 width=28>
+е      11,2 %  <img src="/img/o.jpg" height=12 width=126>
+а      	9,1 %  <img src="/img/o.jpg" height=12 width=108>
+с      	0,7 %  <img src="/img/o.jpg" height=12 width=9>
 п      	0,1 %  <img src="/img/o.jpg" height=12 width=2>
-н      	1,3 %  <img src="/img/o.jpg" height=12 width=15>
-я      	8,8 %  <img src="/img/o.jpg" height=12 width=100>
+н      	1,2 %  <img src="/img/o.jpg" height=12 width=15>
+я      	9,0 %  <img src="/img/o.jpg" height=12 width=100>
 м      	6,0 %  <img src="/img/o.jpg" height=12 width=68>
-т      	4,4 %  <img src="/img/o.jpg" height=12 width=51>
+т      	4,5 %  <img src="/img/o.jpg" height=12 width=51>
 к      	2,3 %  <img src="/img/o.jpg" height=12 width=26>
 у      	3,5 %  <img src="/img/o.jpg" height=12 width=40>
-ь      	6,3 %  <img src="/img/o.jpg" height=12 width=71>
+ь      	6,4 %  <img src="/img/o.jpg" height=12 width=71>
 д      	0,9 %  <img src="/img/o.jpg" height=12 width=11>
-й      	6,8 %  <img src="/img/o.jpg" height=12 width=78>
-л      	3,1 %  <img src="/img/o.jpg" height=12 width=36>
-р      	0,9 %  <img src="/img/o.jpg" height=12 width=10>
-б      	0,2 %  <img src="/img/o.jpg" height=12 width=2>
-х      	3,8 %  <img src="/img/o.jpg" height=12 width=43>
+й      	6,9 %  <img src="/img/o.jpg" height=12 width=78>
+л      	3,2 %  <img src="/img/o.jpg" height=12 width=36>
+р      	0,8 %  <img src="/img/o.jpg" height=12 width=10>
+б      	0,1 %  <img src="/img/o.jpg" height=12 width=2>
+х      	3,9 %  <img src="/img/o.jpg" height=12 width=43>
 з      	0,5 %  <img src="/img/o.jpg" height=12 width=6>
 ы      	3,0 %  <img src="/img/o.jpg" height=12 width=34>
 ч      	0,2 %  <img src="/img/o.jpg" height=12 width=3>
-г      	0,5 %  <img src="/img/o.jpg" height=12 width=5>
+г      	0,4 %  <img src="/img/o.jpg" height=12 width=5>
 ю      	2,3 %  <img src="/img/o.jpg" height=12 width=26>
 э      	0,0 %  <img src="/img/o.jpg" height=12 width=0>
 ж      	0,1 %  <img src="/img/o.jpg" height=12 width=1>
