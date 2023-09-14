@@ -364,60 +364,60 @@
 
 ## Трехбуквенная последовательность (триграмма)
 По аналогии с биграммами рассмотрим частоту триграмм в русском языке.
-Математически в русском языке возможны 33^3=35 937. На практике в 99 % случаев встречаются только 5000 триграмм.
+Математически в русском языке возможны 33^3=35 937. На практике в 99 % случаев встречаются только 4400 триграмм.
 Вот 50 самых частых триграмм в русском языке:
 <pre>
 <b><u>ТГ   %    ДГР</u></b>
-ени      0,4 %  <img src="/img/o.jpg" height=12 width=300>
-ост      0,4 %  <img src="/img/o.jpg" height=12 width=278>
-про      0,3 %  <img src="/img/o.jpg" height=12 width=252>
-что      0,3 %  <img src="/img/o.jpg" height=12 width=236>
-ого      0,3 %  <img src="/img/o.jpg" height=12 width=220>
-ста      0,3 %  <img src="/img/o.jpg" height=12 width=193>
-при      0,3 %  <img src="/img/o.jpg" height=12 width=187>
-ств      0,3 %  <img src="/img/o.jpg" height=12 width=187>
-ать      0,2 %  <img src="/img/o.jpg" height=12 width=178>
-ния      0,2 %  <img src="/img/o.jpg" height=12 width=170>
-льн      0,2 %  <img src="/img/o.jpg" height=12 width=168>
-ова      0,2 %  <img src="/img/o.jpg" height=12 width=167>
-ест      0,2 %  <img src="/img/o.jpg" height=12 width=160>
-мен      0,2 %  <img src="/img/o.jpg" height=12 width=160>
-ани      0,2 %  <img src="/img/o.jpg" height=12 width=159>
-енн      0,2 %  <img src="/img/o.jpg" height=12 width=155>
-тор      0,2 %  <img src="/img/o.jpg" height=12 width=144>
-тел      0,2 %  <img src="/img/o.jpg" height=12 width=143>
-ние      0,2 %  <img src="/img/o.jpg" height=12 width=142>
-сто      0,2 %  <img src="/img/o.jpg" height=12 width=140>
-сти      0,2 %  <img src="/img/o.jpg" height=12 width=139>
-его      0,2 %  <img src="/img/o.jpg" height=12 width=136>
-раз      0,2 %  <img src="/img/o.jpg" height=12 width=134>
-оль      0,2 %  <img src="/img/o.jpg" height=12 width=129>
-оро      0,2 %  <img src="/img/o.jpg" height=12 width=124>
-пер      0,2 %  <img src="/img/o.jpg" height=12 width=124>
-ров      0,2 %  <img src="/img/o.jpg" height=12 width=123>
-ере      0,2 %  <img src="/img/o.jpg" height=12 width=123>
-пол      0,2 %  <img src="/img/o.jpg" height=12 width=123>
-это      0,2 %  <img src="/img/o.jpg" height=12 width=121>
-нно      0,2 %  <img src="/img/o.jpg" height=12 width=121>
-ной      0,2 %  <img src="/img/o.jpg" height=12 width=120>
-ель      0,2 %  <img src="/img/o.jpg" height=12 width=119>
-ско      0,2 %  <img src="/img/o.jpg" height=12 width=119>
-был      0,2 %  <img src="/img/o.jpg" height=12 width=118>
-она      0,2 %  <img src="/img/o.jpg" height=12 width=118>
-нов      0,2 %  <img src="/img/o.jpg" height=12 width=117>
-ото      0,2 %  <img src="/img/o.jpg" height=12 width=117>
-лен      0,2 %  <img src="/img/o.jpg" height=12 width=116>
-ово      0,2 %  <img src="/img/o.jpg" height=12 width=115>
-тся      0,2 %  <img src="/img/o.jpg" height=12 width=114>
-ред      0,2 %  <img src="/img/o.jpg" height=12 width=114>
-стр      0,2 %  <img src="/img/o.jpg" height=12 width=114>
-пре      0,2 %  <img src="/img/o.jpg" height=12 width=114>
-ить      0,2 %  <img src="/img/o.jpg" height=12 width=111>
-как      0,2 %  <img src="/img/o.jpg" height=12 width=111>
-дел      0,1 %  <img src="/img/o.jpg" height=12 width=108>
-нос      0,1 %  <img src="/img/o.jpg" height=12 width=108>
-аст      0,1 %  <img src="/img/o.jpg" height=12 width=107>
-нны      0,1 %  <img src="/img/o.jpg" height=12 width=104>
+ени    0,8 <img src="/img/o.jpg" height=12 width=300>
+ост    0,6 <img src="/img/o.jpg" height=12 width=230>
+про    0,5 <img src="/img/o.jpg" height=12 width=210>
+ств    0,5 <img src="/img/o.jpg" height=12 width=200>
+ого    0,5 <img src="/img/o.jpg" height=12 width=200>
+ния    0,4 <img src="/img/o.jpg" height=12 width=176>
+ани    0,4 <img src="/img/o.jpg" height=12 width=171>
+при    0,4 <img src="/img/o.jpg" height=12 width=169>
+ста    0,4 <img src="/img/o.jpg" height=12 width=157>
+енн    0,4 <img src="/img/o.jpg" height=12 width=151>
+ест    0,4 <img src="/img/o.jpg" height=12 width=146>
+ние    0,4 <img src="/img/o.jpg" height=12 width=145>
+льн    0,4 <img src="/img/o.jpg" height=12 width=140>
+ова    0,4 <img src="/img/o.jpg" height=12 width=139>
+что    0,3 <img src="/img/o.jpg" height=12 width=138>
+его    0,3 <img src="/img/o.jpg" height=12 width=135>
+тел    0,3 <img src="/img/o.jpg" height=12 width=130>
+тор    0,3 <img src="/img/o.jpg" height=12 width=127>
+сти    0,3 <img src="/img/o.jpg" height=12 width=122>
+мен    0,3 <img src="/img/o.jpg" height=12 width=119>
+сто    0,3 <img src="/img/o.jpg" height=12 width=116>
+нно    0,3 <img src="/img/o.jpg" height=12 width=113>
+ать    0,3 <img src="/img/o.jpg" height=12 width=113>
+лен    0,3 <img src="/img/o.jpg" height=12 width=112>
+пол    0,3 <img src="/img/o.jpg" height=12 width=111>
+ель    0,3 <img src="/img/o.jpg" height=12 width=108>
+ред    0,3 <img src="/img/o.jpg" height=12 width=107>
+ров    0,3 <img src="/img/o.jpg" height=12 width=106>
+пер    0,3 <img src="/img/o.jpg" height=12 width=105>
+оль    0,3 <img src="/img/o.jpg" height=12 width=105>
+оро    0,3 <img src="/img/o.jpg" height=12 width=104>
+раз    0,3 <img src="/img/o.jpg" height=12 width=104>
+ово    0,3 <img src="/img/o.jpg" height=12 width=103>
+тся    0,3 <img src="/img/o.jpg" height=12 width=103>
+пре    0,3 <img src="/img/o.jpg" height=12 width=102>
+ото    0,3 <img src="/img/o.jpg" height=12 width=101>
+ско    0,3 <img src="/img/o.jpg" height=12 width=100>
+нны    0,2 <img src="/img/o.jpg" height=12 width=99>
+ных    0,2 <img src="/img/o.jpg" height=12 width=97>
+нос    0,2 <img src="/img/o.jpg" height=12 width=95>
+ван    0,2 <img src="/img/o.jpg" height=12 width=95>
+стр    0,2 <img src="/img/o.jpg" height=12 width=93>
+ног    0,2 <img src="/img/o.jpg" height=12 width=93>
+ере    0,2 <img src="/img/o.jpg" height=12 width=92>
+тве    0,2 <img src="/img/o.jpg" height=12 width=91>
+это    0,2 <img src="/img/o.jpg" height=12 width=89>
+ите    0,2 <img src="/img/o.jpg" height=12 width=88>
+как    0,2 <img src="/img/o.jpg" height=12 width=88>
+дел    0,2 <img src="/img/o.jpg" height=12 width=87>
+нов    0,2 <img src="/img/o.jpg" height=12 width=87>
 </pre>
 
 ## Репрезнетативность используемых корпусов текста на основе триграмм
