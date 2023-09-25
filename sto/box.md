@@ -6,7 +6,7 @@
 - зарядка usb-b (для пояс.камеры)
 
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
-- детали клавиатуры
+- батарейки
 
 # В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="30"/>
 - электроника
@@ -20,7 +20,6 @@
 - болты
 - пластилин
 - двусторонний скотч, изолента
-- очки для плавания
 - фторопластовая пластинка
 
 # Д<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ВМФ_Добро.svg" width="30"/>
@@ -49,7 +48,7 @@
 - краски модельные, грунтовка, пипетки
 
 # М<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ВМФ_Мыслете.svg" width="30"/>
-- батарейки
+- пульты неиспользуемые
 
 # Н<img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/ВМФ_Наш.svg" width="30"/>
 - кабура
