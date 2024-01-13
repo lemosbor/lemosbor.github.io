@@ -23,6 +23,7 @@
 - фторопластовая пластинка
 
 # Д<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ВМФ_Добро.svg" width="30"/>
+Провода аналоговые
 
 # E<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/ВМФ_Есть.svg" width="30"/> 
 (Концелярские)
@@ -35,6 +36,7 @@
 Поливаново | мансарда
 
 # Ж<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/ВМФ_Живете.svg" width="30"/>
+Провода цифровые
 
 # З<img src="https://upload.wikimedia.org/wikipedia/commons/7/76/ВМФ_Земля.svg" width="30"/>
 - колпачки клавиатуры
