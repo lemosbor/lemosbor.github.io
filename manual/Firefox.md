@@ -1,3 +1,13 @@
+## Поиск в google
+site: - искать на сайте
+-  - ислключить из результата поиска.
+inurl: - искать в адресе
+inurl:(lemos | leonov | ilya)
+intext:
+intitle:
+inanchor:
+cache: поиск удалённых страниц
+
 ## Настройки конфига
 Набрать в адресной строке about:config и нажать Ввод
 browser.bookmarks.editDialog.showForNewBookmarks - не показывать диалог сохранения закладки
