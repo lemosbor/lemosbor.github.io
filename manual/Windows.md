@@ -12,3 +12,8 @@
 
 Не системную раскладку настраивать здесь:
 p\\HKEY\_LOCAL\_MACHINE\\SYSTEMNCurrentControlSet\\Contra/KeyboardLayouts\\a0000c00
+
+
+## Outlook
+Для того, чтобы курсор выделения автоматически не перемещался, необходимо снять настройку Параметры редактора→Дополнительно→Автоматически выделять слова
+[коды клавиш в Windows](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.keys?view=windowsdesktop-6.0)
