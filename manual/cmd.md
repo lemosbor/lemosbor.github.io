@@ -105,6 +105,8 @@ for %a in (*.doc *.docx) do "C:\Program Files\Microsoft Office\Office15\WINWORD.
 exit() выйти из команды Python
 c\windows\system32\shutdown.exe -s -f -t {1800, 3600, 5400} автовыключение ПК
 
+chcp 65001 - перевести кодировку терминала в юникод
+
 две команды в одной:
 You can use the special characters listed in the following table to pass multiple commands.
 
