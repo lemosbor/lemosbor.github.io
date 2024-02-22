@@ -12,7 +12,7 @@
 \Profile\Macros\scripts
 Для замены соответствия букв необходимо пересапоставить их в файле Far\Addons\XLat\Russian\Qwerty.farconfig
 
-        <setting key="XLat" name="Table1" type="text" value="№ФДУЛТПБЯРКЖЫЙГХЦНЕАШВЬИОЩСМЗфдултпбярквыйгхцнеашвьиощсмэяёЁБЮ" /> <!-- Non-english symbols -->
+        <setting key="XLat" name="Table1" type="text" value="№ФДУЛТПБЯРКЖЫЙГХЦНЕАШВЬИОЩСМЗфдултпбяркжыйгхцнеашвьиощсмэяёЁБЮ" /> <!-- Non-english symbols -->
         <setting key="XLat" name="Table2" type="text" value="#FDULTPBQRKVYJGHCNEA{WXIO}SMZfdultpbqrkvyjghcnea[wxio]sm&apos;z`~&lt;&gt;" /> <!-- English symbols -->
 	
 
