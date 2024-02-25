@@ -92,3 +92,6 @@ map <a-п> goNext
 map к goNext
 map k goNext
 map ; LinkHints.activateModeToOpenInNewTab
+
+## Настройка сохранения изображений 
+${index}-${pageName}-${name.slice(-20, -8)}${ext}
