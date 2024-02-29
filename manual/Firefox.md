@@ -11,6 +11,9 @@ cache: поиск удалённых страниц
 ## Настройки конфига
 Набрать в адресной строке about:config и нажать Ввод
 browser.bookmarks.editDialog.showForNewBookmarks - не показывать диалог сохранения закладки
+devtools.toolbox.zoomValue = 1,2 - увеличивает размер текста по умолчанию в инструментах разработчика
+browser.tabs.closeWindowWithLastTab = false - не закрывать браузер при закрытии последней вкладки
+
 
 Компактный заголовок и значки: about:config  browser.compactmode.show и browser.uidensity а потом в настройках понелей выбрать компактный вид
 https://www.userchrome.org/firefox-89-styling-proton-ui.html#compactmode
