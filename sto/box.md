@@ -1,26 +1,37 @@
 # A<img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/ВМФ_Аз.svg" width="30"/>
-- станина для пайки
-- штангенциркуль и линейка
+- очки спортивные и линзы
 - навигатор
-- usb-c—usb-a
-- зарядка usb-b (для пояс.камеры)
+- камера нагрудная
+- очки плавотельные
+- держатели магнитные упорные
+- термопары
+- платы RP
+- графическое перо для планшета
+- динамики-бузеры
+- крокадильчики
+- прототипы колпачков клавиатуры
 
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 - батарейки
 
 # В<img src="https://upload.wikimedia.org/wikipedia/commons/6/66/ВМФ_Веди.svg" width="30"/>
-- электроника
+- станина для пайки и держатели
 - мультиметр
 - smd книжка
 - катушка проволоки 0,1 мм
-- батарейки
+- макетная плата
+- провода обрезки
 
 # Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="30"/>
 - клеи
-- болты
+- болты маленькие
+- шканты и гвозьди
 - пластилин
-- двусторонний скотч, изолента
+- двусторонний скотч, изолента, скотч
 - фторопластовая пластинка
+- герметик
+- стяжки
+- наждачная бумага
 
 # Д<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ВМФ_Добро.svg" width="30"/>
 Провода аналоговые
@@ -42,9 +53,13 @@
 - колпачки клавиатуры
 
 # И<img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/ВМФ_Иже.svg" width="30"/>
-- Инструменты
-
-клавиатуры
+- батарейки
+- цапонлак
+- насадка узкая с щеткой для пылесоса
+- инструмент велосипедный
+- ключи запасные
+- лампочка
+- ручки
 
 # Й<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/ВМФ_И_краткое.svg" width="30"/>
 - краски модельные, грунтовка, пипетки
@@ -59,7 +74,10 @@
 - парафин лыжный 
 
 # Р<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/ВМФ_Рцы.svg" width="30"/>
-- ремни
+- usb-c—usb-a
+- ключ
+- зарядка usb-b (для пояс.камеры)
+- зарядка фотоаппарата
 
 # С<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/ВМФ_Слово.svg" width="30"/>
 - снасти рыболовные
@@ -87,7 +105,11 @@
 - Штативы и крепления для камер
 
 # Щ<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/ВМФ_Ща.svg" width="30"/>
-
+- линейка
+- рулетка
+- лазерный уровень
+- лазерная рулетка
+- штангенциркуль
 
 # Э<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/ВМФ_Э_оборотное.svg" width="30"/>
 - кабели и клеммы
