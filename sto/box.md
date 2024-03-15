@@ -61,12 +61,12 @@
 - лампочка
 - ручки
 
+# Й<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/ВМФ_И_краткое.svg" width="30"/>
+- краски модельные, грунтовка, пипетки
+
 # К<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/ВМФ_Ка.svg" width="30"/>
 
 # Л<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/ВМФ_Люди.svg" width="30"/>
-
-# Й<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/ВМФ_И_краткое.svg" width="30"/>
-- краски модельные, грунтовка, пипетки
 
 # М<img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/ВМФ_Мыслете.svg" width="30"/>
 - пульты неиспользуемые
@@ -75,7 +75,11 @@
 - кабура
 - фонарики
 - термометр сантехнический (0—120)
-- парафин лыжный 
+- парафин лыжный
+
+# О<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ВМФ_Он.svg" width="30"/>
+
+# П<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ВМФ_Покой.svg" width="30"/>
 
 # Р<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/ВМФ_Рцы.svg" width="30"/>
 - usb-c—usb-a
@@ -104,6 +108,10 @@
 - перчатки
 - маски
 - бахилы
+
+# Ц<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/ВМФ_Цепочка.svg" width="30"/>
+
+# Ч<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/ВМФ_Червь.svg" width="30"/>
 
 # Ш<img src="https://upload.wikimedia.org/wikipedia/commons/4/43/ВМФ_Шапка.svg" width="30"/>
 - Штативы и крепления для камер
