@@ -61,6 +61,10 @@
 - лампочка
 - ручки
 
+# К<img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/ВМФ_Ка.svg" width="30"/>
+
+# Л<img src="https://upload.wikimedia.org/wikipedia/commons/1/17/ВМФ_Люди.svg" width="30"/>
+
 # Й<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/ВМФ_И_краткое.svg" width="30"/>
 - краски модельные, грунтовка, пипетки
 
