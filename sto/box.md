@@ -78,6 +78,9 @@
 - парафин лыжный
 
 # О<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ВМФ_Он.svg" width="30"/>
+- одеколон
+- Лезвия
+- Мыло и помазок
 
 # П<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ВМФ_Покой.svg" width="30"/>
 
