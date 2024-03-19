@@ -25,7 +25,7 @@
 ## Подсчет слов
 Я насчитал более миллиона различных слов, которые были упомянуты 743 842 922 
 321 раз. После отчистки корпуса от географических названий, аббревиатур и пр. не характерных для русского языка слов, основной корпус составил 300 тыс. слов.
-Самым распространенным словом (предлогом) является и и в (по одной букве), затем идут слова (предлоги) не и на (по две буквы). 
+Самым распространенным словом (предлогом) является `и` и `в` (по одной букве), затем идут слова (предлоги) `не` и `на` (по две буквы). 
 Вот 50 лучших слов с их доля от общего количества вхождений (выглядит как распределение Ципфа):
 
 <pre>
@@ -88,7 +88,7 @@
 - трехбуквенные (`что как его для это все так или она при был мне ему они еще нет уже вот под чем без где том вас тем вам раз кто них нас лет там сам ним ней эти тут мой тот два над нам мог год нее эта три нем эту оно тех про дня всю моя`)
 
 ## Длина слов
-А вот статистика длине слова в процентах. Средняя длина срова составляет 5,5 буквы, а 80 % слов имеют длину до 9 букв.
+А вот статистика по длине слова в процентах. Средняя длина срова составляет 5,5 буквы, а 80 % слов имеют длину до 9 букв.
 Во дсех исследуемых корпусах наблюдается болшой процент слов из одной буквы (предлоги) и провал на словах из 4 букв:
 
 <pre>
@@ -111,9 +111,9 @@
 </pre>
 
 
-Часто-всеречающиеся короткие слова сильно влияют на статистику.
+Часто-встречающиеся короткие слова сильно влияют на статистику.
 Вот распределение для уникальных слов (то есть каждое слово считается только один раз, независимо от 
-того, сколько раз оно упоминается). Теперь в среднем длина составляет 7,60 букв, а 80% имеют длину 
+того, сколько раз оно упоминается). Теперь в среднем длина составляет 7,60 букв, а 80 % имеют длину 
 от 4 до 10 букв:
 
 
@@ -317,12 +317,9 @@
 Примечание: Перед подсчетом биграм и триграм важно отчистить их от аббревиатур. Не существующие биграммы полезны для автозамен.
 
 Обратите внимание, что биграммы `ст` `то` `на` `но` встречаются чаще, чем буквы `й ж х ш ю ё ц ф щ э ъ`.
-То есть гипотетически если отказаться от редко используемой буквы `э`, используя вместо нее букву `е`, а биграмму `ст` заменить на соответствующую ей букву например `c̄`, то измеряемый в буквах объем книг и текстов уменьшится почти на один процент.
+Исторический пример. Если бы Карамзин в 1797 вместе с заменой диграфа `ио` на букву `ё` заменил бы также диграф `ст` на букву `c̄`, то толку было бы больше: измеряемый в буквах объем книг и текстов уменьшился бы почти на один процент. Примерно на это же значение увеличится скорость набора и чтения текста.
 
-Примерно на это же значение увеличится скорость набора и чтения текста.
-
-Если представить биграммы в виде тепровой карты с частотой встречаемости, то она будет выглядеть следующим образом:
-
+Если представить биграммы в виде тепловой карты с частотой встречаемости, то она будет выглядеть следующим образом:
 
 <table>
 <tr height=12><td width=12 class="comp"></td><td width=12 class="comp">_</td><td width=12 class="comp">о</td><td width=12 class="comp">е</td><td width=12 class="comp">а</td><td width=12 class="comp">и</td><td width=12 class="comp">у</td><td width=12 class="comp">ю</td><td width=12 class="comp">я</td><td width=12 class="comp">ё</td><td width=12 class="comp">э</td><td width=12 class="comp">ы</td><td width=12 class="comp">ь</td><td width=12 class="comp">ъ</td><td width=12 class="comp">й</td><td width=12 class="comp">щ</td><td width=12 class="comp">ч</td><td width=12 class="comp">ф</td><td width=12 class="comp">ц</td><td width=12 class="comp">ш</td><td width=12 class="comp">х</td><td width=12 class="comp">ж</td><td width=12 class="comp">б</td><td width=12 class="comp">г</td><td width=12 class="comp">з</td><td width=12 class="comp">п</td><td width=12 class="comp">д</td><td width=12 class="comp">м</td><td width=12 class="comp">к</td><td width=12 class="comp">р</td><td width=12 class="comp">в</td><td width=12 class="comp">л</td><td width=12 class="comp">с</td><td width=12 class="comp">т</td><td width=12 class="comp">н</td></tr>
@@ -361,7 +358,6 @@
 <tr height=12><td width=12 class="comp">т</td><td width=12 bgcolor="#fe715d" title="_т: 0,678 %"></td><td width=12 bgcolor="#fe715d" title="от: 0,634 %"></td><td width=12 bgcolor="#fe715d" title="ет: 0,58 %"></td><td width=12 bgcolor="#fe715d" title="ат: 0,475 %"></td><td width=12 bgcolor="#fe715d" title="ит: 0,426 %"></td><td width=12 bgcolor="#fd9b8d" title="ут: 0,12 %"></td><td width=12 bgcolor="#fd9b8d" title="ют: 0,076 %"></td><td width=12 bgcolor="#fd9b8d" title="ят: 0,133 %"></td><td width=12 bgcolor="#d0afaa" title="ёт: 0,009 %"></td><td width=12 bgcolor="#fd9b8d" title="эт: 0,169 %"></td><td width=12 bgcolor="#fd9b8d" title="ыт: 0,067 %"></td><td width=12 bgcolor="#fd9b8d" title="ьт: 0,024 %"></td><td width=12 bgcolor="#8e8c8c" title="ът: 0 %"></td><td width=12 bgcolor="#fd9b8d" title="йт: 0,022 %"></td><td width=12 bgcolor="#8e8c8c" title="щт: 0 %"></td><td width=12 bgcolor="#fd9b8d" title="чт: 0,213 %"></td><td width=12 bgcolor="#fd9b8d" title="фт: 0,016 %"></td><td width=12 bgcolor="#cac8c8" title="цт: 0 %"></td><td width=12 bgcolor="#d0afaa" title="шт: 0,008 %"></td><td width=12 bgcolor="#d0afaa" title="хт: 0,001 %"></td><td width=12 bgcolor="#d0afaa" title="жт: 0 %"></td><td width=12 bgcolor="#d0afaa" title="бт: 0 %"></td><td width=12 bgcolor="#d0afaa" title="гт: 0,001 %"></td><td width=12 bgcolor="#d0afaa" title="зт: 0,001 %"></td><td width=12 bgcolor="#d0afaa" title="пт: 0,008 %"></td><td width=12 bgcolor="#fd9b8d" title="дт: 0,011 %"></td><td width=12 bgcolor="#d0afaa" title="мт: 0,001 %"></td><td width=12 bgcolor="#fd9b8d" title="кт: 0,147 %"></td><td width=12 bgcolor="#fd9b8d" title="рт: 0,077 %"></td><td width=12 bgcolor="#fd9b8d" title="вт: 0,03 %"></td><td width=12 bgcolor="#d0afaa" title="лт: 0,008 %"></td><td width=12 bgcolor="#ca5949" title="ст: 1,297 %"></td><td width=12 bgcolor="#d0afaa" title="тт: 0,005 %"></td><td width=12 bgcolor="#fd9b8d" title="нт: 0,143 %"></td></tr>
 <tr height=12><td width=12 class="comp">н</td><td width=12 bgcolor="#ca5949" title="_н: 1,276 %"></td><td width=12 bgcolor="#fe715d" title="он: 0,461 %"></td><td width=12 bgcolor="#fe715d" title="ен: 1,055 %"></td><td width=12 bgcolor="#fe715d" title="ан: 0,596 %"></td><td width=12 bgcolor="#fd9b8d" title="ин: 0,334 %"></td><td width=12 bgcolor="#fd9b8d" title="ун: 0,037 %"></td><td width=12 bgcolor="#d0afaa" title="юн: 0,005 %"></td><td width=12 bgcolor="#fd9b8d" title="ян: 0,053 %"></td><td width=12 bgcolor="#d0afaa" title="ён: 0,009 %"></td><td width=12 bgcolor="#d0afaa" title="эн: 0,006 %"></td><td width=12 bgcolor="#fd9b8d" title="ын: 0,02 %"></td><td width=12 bgcolor="#fd9b8d" title="ьн: 0,2 %"></td><td width=12 bgcolor="#8e8c8c" title="ън: 0 %"></td><td width=12 bgcolor="#fd9b8d" title="йн: 0,032 %"></td><td width=12 bgcolor="#d0afaa" title="щн: 0,005 %"></td><td width=12 bgcolor="#fd9b8d" title="чн: 0,092 %"></td><td width=12 bgcolor="#d0afaa" title="фн: 0,001 %"></td><td width=12 bgcolor="#cac8c8" title="цн: 0 %"></td><td width=12 bgcolor="#fd9b8d" title="шн: 0,027 %"></td><td width=12 bgcolor="#fd9b8d" title="хн: 0,033 %"></td><td width=12 bgcolor="#fd9b8d" title="жн: 0,099 %"></td><td width=12 bgcolor="#fd9b8d" title="бн: 0,03 %"></td><td width=12 bgcolor="#fd9b8d" title="гн: 0,019 %"></td><td width=12 bgcolor="#fd9b8d" title="зн: 0,159 %"></td><td width=12 bgcolor="#fd9b8d" title="пн: 0,011 %"></td><td width=12 bgcolor="#fd9b8d" title="дн: 0,171 %"></td><td width=12 bgcolor="#fd9b8d" title="мн: 0,109 %"></td><td width=12 bgcolor="#fd9b8d" title="кн: 0,041 %"></td><td width=12 bgcolor="#fd9b8d" title="рн: 0,095 %"></td><td width=12 bgcolor="#fd9b8d" title="вн: 0,145 %"></td><td width=12 bgcolor="#fd9b8d" title="лн: 0,056 %"></td><td width=12 bgcolor="#fd9b8d" title="сн: 0,106 %"></td><td width=12 bgcolor="#fd9b8d" title="тн: 0,148 %"></td><td width=12 bgcolor="#fe715d" title="нн: 0,355 %"></td></tr>
 </table>
-
 
 (если навести курсор на карту, то отобразятся заначения частоты биграммы).
 Яркие биграммы наиболее частые, а темно-серые не встречающиеся.
