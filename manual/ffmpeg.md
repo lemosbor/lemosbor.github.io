@@ -114,6 +114,12 @@
     ffmpeg -i input.mp4 -af afade=out:5:d=3 -c:v copy result.mp4
 ### Убрать звуковую дорожку
     ffmpeg -i input.mkv -an result.mp4
+### Добавить звуковую дорожку
+    ffmpeg -i video.mkv -i audio.mp3 -map 0 -map 1:a -c:v copy -shortest output.mkv
+    ffmpeg -i video.mkv -i audio.m4a -filter_complex "[0:a][1:a]amerge=inputs=2[a]" -map 0:v -map "[a]" -c:v copy -ac 2 -shortest output.mkv
+### Заменить звуковую дорожку
+    ffmpeg -i video.mp4 -i audio.wav -map 0:v -map 1:a -c:v copy -shortest output.mp4
+    
 ### Конвертировать flac в mp3 с битрейтом 128кб/с
     ffmpeg -i input.flac -b:a 128k result.mp3
 ### Скачать видео
