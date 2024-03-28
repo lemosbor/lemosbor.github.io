@@ -18,10 +18,12 @@
     ffmpeg -i input.mp4 -vf scale=360:288 output.mp4
     ffmpeg -i input.mp4 -s 1280x720 result.mp4
     ffmpeg -i input.png -s 320 result.png
+    
 можно уменьшать и картинки
 ### Извлечь аудио из видео
     ffmpeg -i in.mp4 -c:a copy out.aac
     ffmpeg -i input.mpg -map 0:1 bbb_audio.mp3
+    
 В mp4 для аудио используется кодек aac.
 ### Изменить битрейт видео до 16Мб/с и битрейт аудио до 192кб/с
     ffmpeg -i input.mkv -b:v 16M -b:a 192k result.mp4
@@ -31,8 +33,8 @@
     ffmpeg -i input.mp4 -an -vf setpts=0.25*PTS result.mp4
     ffmpeg -i input.mp4 -an -vf setpts=4*PTS result.mp4
 ### Ускорить/замедлить аудио в 4 раза
-   ffmpeg -i input.wav -af atempo=5 result.mp3 
-   ffmpeg -i input.wav -af atempo=0.5 result.mp3
+    ffmpeg -i input.wav -af atempo=5 result.mp3 
+    ffmpeg -i input.wav -af atempo=0.5 result.mp3
 
 ## Цветокоррекция
 ### Изменить Яркость (от -1.0 до 1.0)
@@ -56,7 +58,9 @@
 
 ### Стабилизация
     ffmpeg -i input.mp4 -vf deshake result.mp4
+    
 сравнить видео без и с фильтром можно командой
+
     ffplay -i input.mp4 -vf split[orig][proc];[proc]deshake[proc];[orig][proc]hstack
     
 ### Стабилизация (глубокая)
@@ -64,6 +68,7 @@
     ffmpeg -i input.mp4 -vf vidstabtransform result.mp4
 
 хороший рецепт
+
     ffmpeg -i input.mp4 -vf vidstabdetect=shakiness=3:accuracy=15 -f null -
     ffmpeg -i input.mp4 -vf vidstabtransform=smoothing=3:zoom=-3 step1.mp4
     ffmpeg -i step1.mp4 -vf vidstabdetect=shakiness=4:accuracy=15 -f null -
@@ -118,6 +123,7 @@
     ffmpeg -i input.mp4 -vf subtitles=1.srt result.mp4
 
 структура формата .srt
+
     1
     00:05:00,400 --> 00:05:15,300
     This is an example of
