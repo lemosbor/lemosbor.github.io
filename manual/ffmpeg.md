@@ -121,7 +121,8 @@
     ffmpeg -i video.mp4 -i audio.wav -map 0:v -map 1:a -c:v copy -shortest output.mp4
     
 ### Конвертировать flac в mp3 с битрейтом 128кб/с
-    ffmpeg -i input.flac -b:a 128k result.mp3
+    ffmpeg -i input.flac -ab 320k result.mp3
+    for %A IN (*.flac) DO ffmpeg -i "%~nA.flac" -ab 320k "%~nA.mp3"
     
 ### Объединить mp3 файлы (из перечня list.txt) в один файл
     ffmpeg -f concat -i list.txt out.mp3    
