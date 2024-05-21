@@ -113,8 +113,11 @@
 - бахилы
 
 # Ц<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/ВМФ_Цепочка.svg" width="30"/>
+- такелажные блоки для веревок
+- запчасти от коптера
 
 # Ч<img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/ВМФ_Червь.svg" width="30"/>
+- шарики надувные
 
 # Ш<img src="https://upload.wikimedia.org/wikipedia/commons/4/43/ВМФ_Шапка.svg" width="30"/>
 - Штативы и крепления для камер
