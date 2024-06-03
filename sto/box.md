@@ -160,7 +160,7 @@
 - навигатор гармин красный
 плв | мансарда
 
-# Ѣ<img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/ВМФ_Яко.svg" width="30"/>
+# Ѣ<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/ВМФ_1-й_дополнительный.svg" width="30"/>
 -1
 
 # Спортивный ящик (сени)
