@@ -3,6 +3,7 @@
 чтобы поасть на форму сделать быстрый поиск текста перед формой (через / или '), а затем нажать ТАБ
 упр+г, ввод, ф3 - переход к следующему вхождению поиска
 упр+р -- обновить
+Упр+ввод - добавить окончание .com и перейти (чтобы поменять на .ru выбрать  в настройках browser.fixup.alternate.suffix)
 упр+рег+р -- обновить с перезагрузкой кэша
 упр+0 -- сбросить масштаб
 доп+↓  -- сменить поисковую систему в адресной строке
@@ -43,28 +44,9 @@ cache: поиск удалённых страниц
 
 ## Настройки конфига
 Набрать в адресной строке about:config и нажать Ввод
-browser.bookmarks.editDialog.showForNewBookmarks - не показывать диалог сохранения закладки
-devtools.toolbox.zoomValue = 1,2 - увеличивает размер текста по умолчанию в инструментах разработчика
-browser.tabs.closeWindowWithLastTab = false - не закрывать браузер при закрытии последней вкладки
-browser.tabs.loadDivertedInBackground - вкладка открывалется в фоновом режиме (так быстрее) 
-browser.altClickSave - сохранять изображение или ссылку через доп+клик
-browser.tabs.tabMinWidth - Для настройки минимальной ширины вкладки задать ее ширину в настройке 
-browser.tabs.loadBookmarksInBackground - при открытии закладок оставаться на исходной открытой вкладке до завершения и открываться только при нажатии на вкладку 
-
-Компактный заголовок и значки: about:config  browser.compactmode.show и browser.uidensity а потом в настройках понелей выбрать компактный вид
-https://www.userchrome.org/firefox-89-styling-proton-ui.html#compactmode
+Файл user.js перезаписывает значения, игнорируя prefs.js, после запуска браузера и должен быть размещен в папке пользователя, адрес которой можно узнать на странице about:support
 Задание стилей css: Справка — Информация для решения проблем — Папка профиля. Создать папку и файл chrome\userChrome.css
 
-menupopup:not(.in-menulist) > menuitem, 
-menupopup:not(.in-menulist) > menu {
-  padding-block: 1px !important;    /* высота пробела между пунктами меню */
-  min-height: unset !important;
-}
- 
-/* Minimize height of sidebar items */
-.sidebar-placesTreechildren::-moz-tree-row {
-	min-height: 17px !important;
-}
 
 ## vim-режим
 й - скролл вниз
