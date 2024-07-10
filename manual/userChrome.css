@@ -1,0 +1,172 @@
+/*---+---+---+---+---+
+ | Ц | В | Е | Т | А |
+ +---+---+---+---+---*/
+@media (prefers-color-scheme: light) { :root {
+  --яркий:	#ffd966;
+  --серый:	#bcbcbc;
+  --синий:	#6fa8dc;
+}}
+@media (prefers-color-scheme: dark) { :root {
+  --яркий:	#a73502;
+  --серый:	#5b5b5b;
+  --синий:	#102538;
+}}
+/*задать цвет активной влакладки*/
+:root {
+  --lwt-selected-tab-background-color: var(--серый) !important;
+}
+
+.tab-background:is([selected], [multiselected]) {
+  background-color: var(--серый) !important;
+/* замедлить раскраску
+ transition: ease all 0.5s;*/
+}
+/*---+---+---+---+---+
+ | Ш | Р | И | Ф | Т |
+ +---+---+---+---+---*/
+/*
+*,
+*::before,
+*::after {
+	font-family: Iosevka Term Extrabold; 
+	font-size: 12px; 
+}
+*/
+/*---+---+---+---+---+
+ | Ш | А | П | К | А |
+ +---+---+---+---+---*/
+:root {
+  --tab-max-height: 24px !important;
+  --tab-min-height: 0 !important;
+}
+
+#alltabs-button,
+.titlebar-buttonbox-container /*скрыть кнопки сворачивания*/
+{
+	display: none;
+}
+/*---+---+---+---+---+---+
+ | И | К | О | Н | К | И |
+ +---+---+---+---+---+---*/
+#tracking-protection-icon-box,   /* Скрыть иконку с щитом,  лупу, кнопки вперед и назад */
+#identity-box,
+#back-button,  
+#forward-button,
+#urlbar-zoom-button {display: none !important; }
+/*---+---+---+---+---+
+ | А | Д | Р | Е | С |
+ +---+---+---+---+---*/
+#nav-bar {	/*скрывать адресную строку*/
+	position: fixed !important;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	z-index: 1;
+	transition: top 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280),
+	opacity 0.1s ease !important;
+	border-radius: 10px !important;
+	opacity: 0;
+}
+#navigator-toolbox:focus-within > #nav-bar,
+#navigator-toolbox:hover >  #nav-bar
+{
+		top: 3.5rem; /* высота от верха экрана*/
+		opacity: 1;
+}
+#navigator-toolbox { /*скрыть нижнюю границу*/
+	border-bottom: none !important;
+}
+#urlbar-input::placeholder { /*не выводить подсказку о поиске*/
+opacity: 0 !important;
+}
+/*---+---+---+---+---+---+---+
+ | В | К | Л | А | Д | К | И |
+ +---+---+---+---+---+---+---*/
+.titlebar-spacer[type='pre-tabs'], /* скрыть отступы*/
+.titlebar-spacer[type='post-tabs'] {
+display: none !important;
+}
+.tab-background { /*не показывать тень и скруглить вкладки*/
+	box-shadow: none !important;
+	border-radius: 10px !important;
+}
+#tabbrowser-tabs { /*отступ иконки*/
+	--inline-tab-padding: 3px !important;
+}
+/*не показывать кнопку закрытия вкладки (крестик)*/
+/*.tab-close-button { 
+	display: none;
+}
+*/
+/*цвет вкалдки со звездой
+.tabbrowser-tab[stared]  .tab-background:is([selected], [multiselected]) {
+#star-button-box:is:active 
+.tabbrowser-tab > #star-button[starred]  {
+	background-color: #ffd966 !important;
+}
+*/
+#main-window:focus-within .tab-background:is([selected], [multiselected]) { /*цвет активной вкладки при активом Firefox*/
+  --lwt-selected-tab-background-color: var(--яркий) !important;
+    background-color: var(--яркий) !important;
+  /*  background-color: #ffd966 !important; */
+}
+/*---+---+---+---+---+---+
+ | П | А | Н | Е | Л | Ь |
+ +---+---+---+---+---+---*/
+.sidebar-placesTreechildren::-moz-tree-row { /* высота пунктов боковой панели */
+    min-height: 18px !important;
+    height: 18px !important;
+    max-height: 18px !important;
+}
+.hidevscroll-scrollbar { /* Убрать прокрутку */
+  display: none !important;
+}
+#sidebar-box{ /* Настройка размеров при раскрытии */
+  --uc-sidebar-width: 6px; /* ширина в свернутом виде */
+  --uc-sidebar-hover-width: 240px; /* ширина в развернутом виде */
+  --uc-autohide-sidebar-delay: 200ms; /* время скрытия */
+  min-width: var(--uc-sidebar-width) !important;
+  max-width: var(--uc-sidebar-width) !important;
+  z-index:1;
+}
+#main-window[sizemode="fullscreen"] #sidebar-box{ --uc-sidebar-width: 1px; } /* ширина в свернутом виде в полноэкранном режиме */
+
+#sidebar-header{ /* заголовок */
+/*overflow: hidden;
+  color: var(--chrome-color, inherit) !important;
+  padding-inline: 0 !important;
+*/
+  display: none !important; /* скрыть заголовок */
+}
+#sidebar-header,  /* плавность раскрытия  */
+#sidebar{
+  transition: min-width 115ms linear var(--uc-autohide-sidebar-delay) !important;
+  min-width: var(--uc-sidebar-width) !important;
+  will-change: min-width;
+}
+#sidebar-box:hover > #sidebar-header, /* Раскрытие */
+#sidebar-box:hover > #sidebar{
+  min-width: var(--uc-sidebar-hover-width) !important;
+  transition-delay: 0ms !important;
+}
+/*поисковая форма*/
+.sidebar-panel #search-box{
+/*-moz-appearance: none !important;
+  background-color: rgba(249,249,250,0.1) !important; 
+  color: inherit !important;
+ */
+  display: none !important;/* скрыть заголовок */
+}
+#sidebar,  /* стиль подложки и рамки */
+#sidebar-header{
+  background-color: #f3f6f4 !important;
+ border-inline: 2px solid var(--синий);
+}
+/*---+---+---+---+
+ | М | Е | Н | Ю |
+ +---+---+---+---*/
+menupopup:not(.in-menulist) > menuitem, menupopup 
+menupopup:not(.in-menulist) > menu {
+  padding-block: 0px !important;    /* высота пробела между пунктами меню */
+  min-height: unset !important;
+}
