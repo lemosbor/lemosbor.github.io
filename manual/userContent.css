@@ -1,0 +1,13 @@
+﻿@-moz-document /* замена цвета посещенной ссылки regexp("https:.*") */ 
+domain(google.com),
+domain(ya.ru) {
+a:visited {
+  color: mediumpurple !important;
+}
+}
+
+@-moz-document url-prefix('http://'), url-prefix('https://') { /*замена шрифта кода*/
+    code { 
+        font-family: "MxPlus IBM VGA 8x12" !important; font-size: 16px !important; size-adjust: 100%; 
+    }
+}
