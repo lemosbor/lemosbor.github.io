@@ -9,7 +9,7 @@
     ffmpeg -sseof 40 -i input.mp4 result.mp4
     
 ### Мульти-резка видео в ffmpeg
-1. Создать файл list.txt:  
+1. Создать файл list.txt:
 	file video.mp4
 	inpoint 34.5
 	outpoint 55.1
@@ -24,6 +24,9 @@
 -c copy — сохранить видеокодек и аудиокодек,
 -c:v copy — сохранить только видеокодеки,
 -c:a copy — сохранить только аудиокодеки.
+
+### ужать видео
+	ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 
 ### Уменьшить размер кадра в 2 раза
     ffmpeg -i input.mp4 -vf scale=iw*0.5:ih*0.5 output.mp4
