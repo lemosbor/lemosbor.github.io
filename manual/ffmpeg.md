@@ -8,6 +8,19 @@
 ### Обрезать (сохранить) последние 40 секунд
     ffmpeg -sseof 40 -i input.mp4 result.mp4
     
+### Мульти-резка видео в ffmpeg
+1. Создать файл list.txt:  
+	file video.mp4
+	inpoint 34.5
+	outpoint 55.1
+	file video.mp4
+	inpoint 111.0
+	outpoint 155.3
+
+2. Запустить команду  
+    ffmpeg -f concat -i list.txt -c copy output.mp4
+    ffmpeg -f concat -i list.txt  -c:v copy -c:a copy output.avi    
+    
 -c copy — сохранить видеокодек и аудиокодек,
 -c:v copy — сохранить только видеокодеки,
 -c:a copy — сохранить только аудиокодеки.
