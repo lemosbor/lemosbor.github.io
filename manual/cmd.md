@@ -46,6 +46,8 @@ rd %1
 чтобы вторая команда выполнялась только после успешного выполнения первой, используются формат &&
 вторая команда будет выполнена, только если первая вернула ошибку ||
 
+setx path "%PATH%;F:\JPEGViewPortable"
+set path="%PATH%;F:\JPEGViewPortable"
 mklink /j E:\Documents\Ярлыки\14 C:\02 — создать ссылку
 copy C:\02\1.txt + E:\Documents\Ярлыки\6.txt C:\02\1.txt — соединить файлы
 for /D %a in ("c:\01\*") do copy %a\1.txt + E:\6.txt %a\1.txt
