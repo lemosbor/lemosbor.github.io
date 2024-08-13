@@ -170,3 +170,8 @@ menupopup:not(.in-menulist) > menu {
   padding-block: 0px !important;    /* высота пробела между пунктами меню */
   min-height: unset !important;
 }
+
+#context-bookmarklink, /* убрать из меню пункт добавления ссылки в закладки http://kb.mozillazine.org/Chrome_element_names_and_IDs#Firefox_menus */
+#context-bookmarklink + menuseparator {
+  display: none !important;
+}
