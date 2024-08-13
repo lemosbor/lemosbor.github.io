@@ -21,6 +21,7 @@ user_pref("browser.uidensity", 1); // компактный режим
 user_pref("browser.urlbar.filter.javascript", false);
 user_pref("browser.urlbar.showSearchSuggestionsFirst", false); // показывать в предложениях сначала закладки
 user_pref("browser.urlbar.suggest.searches", false); // показывать в предложениях сначала закладки
+user_pref("browser.urlbar.decodeURLsOnCopy", true); // копировать ссылки с кирилицей из адресной строки
 user_pref("dom.webnotifications.enabled", false); // уведомления сайтов (?)
 user_pref("extensions.htmlaboutaddons.recommendations.enabled", false); // рекомендации сайтов (?)
 user_pref("font.name.monospace.x-cyrillic", "MxPlus IBM VGA 8x12"); // моноширный шрифт по-умолчанию
@@ -30,6 +31,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false); // не выде�
 user_pref("mousewheel.default.delta_multiplier_y", 150); // ускорить скролл
 user_pref("widget.non-native-theme.scrollbar.style", 2); // тонкая полоса прокрутки
 user_pref("image.http.accept", "*/*"); // убрать webp как стандартные изображения
+
 
 // user_pref("browser.download.dir", "F:\\Архив\\Загрузки");
 // user_pref("browser.download.folderList", 2);
