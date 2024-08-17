@@ -100,7 +100,7 @@
     file '/path/to/file2.wav'
     file '/path/to/file3.wav'
 Лист можно быстро сделать командой
-
+                                                                   
     (for %i in (*.mp4) do @echo file '%i') > list.txt 
 Выполняем команду (с и без копирования потоков):
 
@@ -163,3 +163,6 @@
 
 ### Получить информацию о видео
     ffprobe video.mp4 -v error -show_format
+
+### Переконвертировать все webp в jpg
+for %A IN (*.webp) DO ffmpeg -i "%~nA.webp" "%~nA.jpg"
