@@ -4,13 +4,10 @@
 - джойстики
 - провод hdma
 - переходник hdma—usb-c
-
 - витая пара
 - тепловизор
-
 - очки плавотельные
 - очки спортивные и линзы
-
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 - батарейки
 
