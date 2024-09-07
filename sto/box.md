@@ -83,10 +83,13 @@
 # П<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ВМФ_Покой.svg" width="30"/>
 
 # Р<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/ВМФ_Рцы.svg" width="30"/>
-- usb-c—usb-a
-- ключ
-- зарядка usb-b (для пояс.камеры)
-- зарядка фотоаппарата
+- шнурки
+- веревка
+- лента для ключей
+- ремешки для часов
+- шнурок для наушников
+- держатель для навигатора на велосипед
+- подушечки для обувных стелек
 
 # С<img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/ВМФ_Слово.svg" width="30"/>
 - снасти рыболовные
