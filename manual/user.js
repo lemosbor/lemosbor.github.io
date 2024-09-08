@@ -31,6 +31,7 @@ user_pref("layout.word_select.eat_space_to_next_word", false); // не выде�
 user_pref("mousewheel.default.delta_multiplier_y", 150); // ускорить скролл
 user_pref("widget.non-native-theme.scrollbar.style", 2); // тонкая полоса прокрутки
 user_pref("image.http.accept", "*/*"); // убрать webp как стандартные изображения
+user_pref("image.jxl.enabled", true); // приоритет JPEG XL
 
 
 // user_pref("browser.download.dir", "F:\\Архив\\Загрузки");
