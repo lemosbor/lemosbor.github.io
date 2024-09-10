@@ -509,3 +509,8 @@ edit:"!.!"
     Переместить выделенные файлы в необходимую директорию:
     
 	for %i in (!&) do move %i F:\Изображения\
+	
+6. Чтобы после запуска команды, FAR возвращался в рабочий режим, а не висел, необходимо добавить в команду start ""
+Например:
+	typst compile "!\!.!" | start "" F:\XpdfReader\xpdf.exe "!.pdf"
+	start "" "C:\Program Files\Microsoft Office\Office15\EXCEL.EXE" "!\!.!"
