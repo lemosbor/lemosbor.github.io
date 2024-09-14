@@ -79,6 +79,7 @@
 - одеколон
 - Лезвия
 - Мыло и помазок
+- зубная нить
 
 # П<img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/ВМФ_Покой.svg" width="30"/>
 
