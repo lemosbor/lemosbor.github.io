@@ -1,4 +1,4 @@
-﻿@-moz-document /* замена цвета посещенной ссылки regexp("https:.*") */ 
+﻿@-moz-document /* замена цвета посещенной ссылки regexp("https:.*") */
 domain(google.com),
 domain(ya.ru) {
 a:visited {
@@ -7,7 +7,31 @@ a:visited {
 }
 
 @-moz-document url-prefix('http://'), url-prefix('https://') { /*замена шрифта кода*/
-    code, pre { 
-        font-family: "MxPlus IBM VGA 8x12" !important; font-size: 16px !important; size-adjust: 100%; 
+    code, pre {
+        font-family: "MxPlus IBM VGA 8x12" !important; font-size: 12px !important; size-adjust: 100%;
     }
 }
+
+@-moz-document url-prefix(about:reader){
+ body.light {
+  color: #000000 !important;
+  background-color: #EBE6E1 !important;
+ }
+}
+
+body.serif
+       { font-family:"AcademyC" !important;
+       }
+
+       div
+       {
+       line-height: 1.3em !important;
+       }
+
+
+html, body{scrollbar-color: #7C8790 #f9f9fb;}
+
+
+:root[lwtheme-brighttext]{
+     --lwt-selected-tab-background-color: #f00 !important;
+   }
