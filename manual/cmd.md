@@ -146,3 +146,15 @@ CHCP — сменить кодировку
 %TIME% — время
 %RANDOM% — случайное число 0...32767
 echo %date%-%time:~-11,2%.%time:~-8,2% 01.01.2021-15.10
+
+
+## Regex cmd (только для английского)  
+findstr /r "[a-z]m[a-z]" test - найти вес строки начинающиеся со слова на m
+findstr /r /v"[a-z]m[a-z]" test - найти вес строки не начинающиеся со слова на m
+
+## Regex PowerShell  
+Select-String -Pattern '^ожог' -Path 'f:\3\so'  — найти в фале so все слова, начинающиеся на ожог)
+(Select-String -Pattern 'вх.*ди' -Path 'f:\3\so'|Measure-Object).Count — количество слов на вх..од..
+Select-String -Pattern '\b[вход]+\b' -Path 'f:\3\so' | Select-Object -ExpandProperty line  — слова на буквы: вход
+(Select-String -Pattern '^ожог' -Path 'f:\3\so' | Select-Object).line -replace "[\t\d]","" -join ' ' — вывести в строку слова по образцу
+NotMatch - для  не совпадающих
