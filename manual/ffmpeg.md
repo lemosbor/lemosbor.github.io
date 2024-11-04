@@ -14,6 +14,8 @@
     mogrify -layers optimize -fuzz 10% output.gif
     уменьшить размер gif
 
+### конвертироват в mkv
+    ffmpeg -i "название видео.mp4" -c:v libx265 -с:a copy "название итогового видео.mkv"
 
 ### Мульти-резка видео в ffmpeg
 1. Создать файл list.txt:
