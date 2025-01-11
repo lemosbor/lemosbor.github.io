@@ -1,177 +1,529 @@
-/*---+---+---+---+---+
- | Ц | В | Е | Т | А |
- +---+---+---+---+---*/
-@media (prefers-color-scheme: light) { :root {
-  --яркий:	#ffd966;
-  --серый:	#bcbcbc;
-  --синий:	#6fa8dc;
-}}
-@media (prefers-color-scheme: dark) { :root {
-  --яркий:	#a73502;
-  --серый:	#5b5b5b;
-  --синий:	#102538;
-}}
-/*задать цвет активной влакладки*/
-:root {
-  --lwt-selected-tab-background-color: var(--серый) !important;
+  :root {
+         --tab-active-bg-color: #000;
+         --tab-inactive-bg-color: #000;
+
+         --tab-active-fg-fallback-color: #000;           /* color of text in an active tab without a contai    ner */
+         --tab-inactive-fg-fallback-color: #000;         /* color of text in an inactive tab without a cont    ainer */
+          --urlbar-focused-bg-color: #ffffff;
+          --urlbar-not-focused-bg-color: #000;
+          --toolbar-bgcolor: #000 !important;
+          --tab-font: 'MxPlus IBM VGA 8x12';
+          --urlbar-font: 'MxPlus IBM VGA 8x12';
+
+          /* try increasing if you encounter problems */
+        --urlbar-height-setting: 24px;
+        --tab-min-height: 20px !important;
+
+         /* I don't recommend you touch this unless you know what you're doing */
+         --arrowpanel-menuitem-padding: 2px !important;
+         --arrowpanel-border-radius: 0px !important;
+         --arrowpanel-menuitem-border-radius: 0px !important;
+         --toolbarbutton-border-radius: 0px !important;
+         --toolbarbutton-inner-padding: 0px 2px !important;
+         --toolbar-field-focus-background-color: var(--urlbar-focused-bg-color) !important; /* цвет текстового поля */
+         --toolbar-field-background-color: var(--urlbar-not-focused-bg-color) !important;
+         --toolbar-field-focus-border-color: transparent !important;
+ }
+
+#titlebar {
+	--tab-min-height: 24px !important;
 }
 
-.tab-background:is([selected], [multiselected]) {
-  background-color: var(--серый) !important;
-/* замедлить раскраску
- transition: ease all 0.5s;*/
-}
-/*---+---+---+---+---+
- | Ш | Р | И | Ф | Т |
- +---+---+---+---+---*/
-/*
-*,
-*::before,
-*::after {
-	font-family: Iosevka Term Extrabold; 
-	font-size: 12px; 
-}
+/* --- GENERAL DEBLOAT ---------------------------------- */
+
+/* Bottom left page loading status or url preview Статусная строка и предпросмотр ссылки
+	display: none !important;
 */
-/*---+---+---+---+---+
- | Ш | А | П | К | А |
- +---+---+---+---+---*/
-:root {
-  --tab-max-height: 24px !important;
-  --tab-min-height: 0 !important;
+#statuspanel {
+	font-family: var(--tab-font);
+    font-size: 16px;
+
+}
+/* --- DEBLOAT NAVBAR ----------------------------------- */
+
+
+
+#unified-extensions-button {
+    display: none;
 }
 
-#alltabs-button,
-.titlebar-buttonbox-container /*скрыть кнопки сворачивания*/
-{
+#back-button {
 	display: none;
 }
-/*---+---+---+---+---+---+
- | И | К | О | Н | К | И |
- +---+---+---+---+---+---*/
-#tracking-protection-icon-box,   /* Скрыть иконку с щитом,  лупу, кнопки вперед и назад */
-#identity-box,
-#back-button,  
-#forward-button,
-#urlbar-zoom-button {display: none !important; }
-/*---+---+---+---+---+
- | А | Д | Р | Е | С |
- +---+---+---+---+---*/
-#nav-bar {	/*скрывать адресную строку*/
-	position: fixed !important;
-	top: 0;
-	left: 25%;
-	right: 25%;
-	z-index: 1;
-	transition: top 0.3s cubic-bezier(0.270, 0.910, 0.435, 1.280),
-	opacity 0.1s ease !important;
-	border-radius: 10px !important;
-	opacity: 0;
+
+#forward-button {
+	display: none;
 }
-#navigator-toolbox:focus-within > #nav-bar,
-#navigator-toolbox:hover >  #nav-bar
-{
-		top: 3.5rem; /* высота от верха экрана*/
-		opacity: 1;
+
+#reload-button {
+	display: none;
 }
-#navigator-toolbox { /*скрыть нижнюю границу*/
-	border-bottom: none !important;
+
+#stop-button {
+	display: none;
 }
-#urlbar-input::placeholder { /*не выводить подсказку о поиске*/
-opacity: 0 !important;
+
+#home-button {
+	display: none;
 }
-/*---+---+---+---+---+---+---+
- | В | К | Л | А | Д | К | И |
- +---+---+---+---+---+---+---*/
-.titlebar-spacer[type='pre-tabs'], /* скрыть отступы*/
-.titlebar-spacer[type='post-tabs'] {
-display: none !important;
+
+#downloads-button {
+	display: none;
 }
-.tab-background { /*не показывать тень и скруглить вкладки*/
+
+#library-button {
+	display: none;
+}
+
+#fxa-toolbar-menu-button {
+	display: none;
+}
+
+/* Firefox account button */
+#fxa-toolbar-menu-button {
+	display: none;
+}
+
+#nav-bar-overflow-button {
+	display: none !important;
+}
+
+/* General Firefox menu button */
+#PanelUI-button {
+	display: none;
+}
+
+#private-browsing-indicator-with-label {
+    display: none;
+}
+
+/* Empty space before and after the url bar */
+#customizableui-special-spring1,
+#customizableui-special-spring2 {
+	display: none;
+}
+
+#nav-bar,
+#navigator-toolbox {
+	border-width: 0 !important;
+	--toolbar-field-focus-border-color: #000;  /* рамка поля с адресом */
+
+}
+
+/* --- STYLE URLBAR ------------------------------------- */
+
+#urlbar-container {
+	--urlbar-container-height: 18px !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	font-family: var(--tab-font);
+	font-size: 14px;
+        background-color: #000000; !important;
+}
+
+#urlbar {
+	--urlbar-height: var(--tab-min-height) !important;
+	--urlbar-toolbar-height: var(--tab-min-height) !important;
+	min-height: var(--tab-min-height) !important;
+	border-color: #000 !important;
+	--autocomplete-popup-highlight-background: #000000 !important;
+}
+
+#urlbar-background {
+	border-width: 0 !important;
+	border-radius: 0 !important;
+	color: #000;
+}
+
+#urlbar-input-container {
+	border-width: 0 !important;
+	margin-left: 0 !important;
+	background-color: #000;
+}
+
+#urlbar-input {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+        background-color: #000;
+}
+
+.urlbarView-row {
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	line-height: var(--urlbar-height) !important;
+}
+
+.urlbarView-row-inner {
+	padding-top: 0.3em !important;
+	padding-bottom: 0.3em !important;
+	height: var(--urlbar-height) !important;
+}
+
+.urlbarView-favicon {
+	height: 1em !important;
+	width: 1em !important;
+	margin-bottom: 0.2em !important;
+}
+.urlbar-go-button{ display: none !important; }
+
+/* --- DEBLOAT URLBAR ----------------------------------- */
+
+#identity-box {
+	display: none;
+}
+
+#pageActionButton {
+	display: none;
+}
+
+#pocket-button {
+	display: none;
+}
+
+#urlbar-zoom-button {
+	display: none;
+}
+
+#tracking-protection-icon-container {
+	display: none !important;
+}
+
+#reader-mode-button {
+	display: none !important;
+}
+
+#star-button {
+	display: none;
+}
+
+/* this will remove the invisible box at the end of urlbar but also will
+ * disable the Ctrl+D shortcut */
+#star-button-box {
+	display: none;
+}
+
+/* Go to arrow button at the end of the urlbar when searching */
+#urlbar-go-button {
+	display: none;
+}
+
+/* remove container indicator from urlbar */
+#userContext-label,
+#userContext-indicator {
+	display: none !important;
+}
+
+/* --- STYLE TAB TOOLBAR -------------------------------- */
+
+#titlebar {
+	--proton-tab-block-margin: 0px !important;
+	--tab-block-margin: 0 !important;
+}
+
+:root:not([customizing]) #TabsToolbar {
+	background-color: #b56e6e
+}
+
+:root:not([customizing]) #navigator-toolbox {
+	background-color: #b56e6e !important;
+}
+
+#TabsToolbar,
+.tabbrowser-tab {
+	max-height: 0px !important;
+	font-size: 11px !important;
+}
+
+/* Change color of normal tabs */
+tab:not([selected="true"]) {
+	background-color: var(--tab-inactive-color) !important;
+	color: var(--identity-icon-color, --tab-fallback-color-inactive) !important;
+}
+
+tab {
+	font-family: var(--tab-font);
+	font-weight: bold;
+	border: none !important;
+}
+
+/* safari style tab width */
+.tabbrowser-tab[fadein] {
+	max-width: 100vw !important;
+	border: none
+}
+
+/* hide tab bar if only one tab open */
+tab:only-of-type {
+	display: none;
+}
+
+/* Hide close button on tabs */
+#tabbrowser-tabs .tabbrowser-tab .tab-close-button {
+	display: none !important;
+}
+
+/* hide container line on tab*/
+#tabbrowser-tabs .tab-context-line {
+	display: none
+}
+
+/* disable favicons in tab */
+.tab-icon-stack:not([pinned]) {
+	display: none !important;
+}
+
+.tabbrowser-tab {
+	/* remove border between tabs */
+	padding-inline: 0px !important;
+	/* remove fading effect from tab text */
+	--tab-label-mask-size: 1em !important;
+	/* fix pinned tab behaviour on overflow */
+	overflow-clip-margin: 0px !important;
+}
+
+/* remove min-height from tabs toolbar (needed for fullscreen one tab) */
+#TabsToolbar,
+#tabbrowser-tabs,
+#tabbrowser-tabs>.tabbrowser-arrowscrollbox,
+#tabbrowser-arrowscrollbox {
+	min-height: 0 !important;
+}
+
+/* Tab: selected colors */
+#tabbrowser-tabs .tabbrowser-tab[selected] .tab-content {
+	background: var(--tab-active-color) !important;
+	border: none !important;
+	color: var(--identity-icon-color, --tab-fallback-color-active) !important;
+}
+
+/* Tab: hovered colors */
+#tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-content {
+	background: var(--tab-active-color) !important;
+}
+
+/* remove white margin around active tabs */
+#tabbrowser-tabs:not([movingtab])>#tabbrowser-arrowscrollbox>.tabbrowser-tab[beforeselected-visible]::after,
+#tabbrowser-tabs[movingtab]>#tabbrowser-arrowscrollbox>.tabbrowser-tab[visuallyselected]::before,
+.tabbrowser-tab[visuallyselected]::after {
+	border: none !important;
+}
+
+/*AGENT_SHEET*/
+#main-window #navigator-toolbox #TabsToolbar:not(:-moz-lwtheme) {
+	background: var(--tab-active-color) !important;
+}
+
+/* hide window controls */
+.titlebar-buttonbox-container {
+	display: none;
+}
+
+/* remove titlebar spacers */
+.titlebar-spacer {
+	display: none !important;
+}
+
+/* disable tab shadow */
+#tabbrowser-tabs:not([noshadowfortests]) .tab-background:is([selected], [multiselected]) {
 	box-shadow: none !important;
-	border-radius: 10px !important;
 }
-#tabbrowser-tabs { /*отступ иконки*/
-	--inline-tab-padding: 3px !important;
+
+/* remove dark space between pinned tab and first non-pinned tab */
+#tabbrowser-tabs[haspinnedtabs]:not([positionpinnedtabs])>#tabbrowser-arrowscrollbox>.tabbrowser-tab[first-visible-unpinned-tab] {
+	margin-inline-start: 0px !important;
 }
-/*не показывать кнопку закрытия вкладки (крестик)*/
-/*.tab-close-button { 
-	display: none;
+
+/* remove dropdown menu button which displays all tabs on overflow */
+#alltabs-button {
+	display: none !important
 }
-*/
-/*цвет вкалдки со звездой
-.tabbrowser-tab[stared]  .tab-background:is([selected], [multiselected]) {
-#star-button-box:is:active 
-.tabbrowser-tab > #star-button[starred]  {
-	background-color: #ffd966 !important;
+
+/* fix displaying of pinned tabs on overflow */
+#tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
+	height: var(--tab-min-height) !important;
 }
-*/
-#main-window:focus-within .tab-background:is([selected], [multiselected]) { /*цвет активной вкладки при активом Firefox*/
-  --lwt-selected-tab-background-color: var(--яркий) !important;
-    background-color: var(--яркий) !important;
-  /*  background-color: #ffd966 !important; */
+
+/* remove overflow scroll buttons */
+#scrollbutton-up,
+#scrollbutton-down {
+	display: none !important;
 }
-/*---+---+---+---+---+---+
- | П | А | Н | Е | Л | Ь |
- +---+---+---+---+---+---*/
+
+/* --- AUTOHIDE URLBAR ---------------------------------- */
+
+/* hide urlbar unless focused */
+#nav-bar {
+	min-height: 0 !important;
+	max-height: 0 !important;
+	height: 0 !important;
+	--moz-transform: scaleY(0) !important;
+	transform: scaleY(0) !important;
+}
+
+/* #titlebar:hover~#nav-bar, */
+/* #nav-bar:hover, */
+#nav-bar:focus-within {
+	--moz-transform: scale(1) !important;
+	transform: scale(1) !important;
+	max-height: var(--urlbar-height) !important;
+	height: var(--urlbar-height) !important;
+	min-height: var(--urlbar-height) !important;
+}
+
+/* show on toolbox focus */
+#navigator-toolbox:focus-within>.browser-toolbar {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+#nav-bar {
+  position: fixed !important;
+  display: block;
+  bottom: 0 !important;
+  width: 100vw !important;
+  z-index: 1 !important;
+}
+
+:root{
+  --lwt-sidebar-background-color: #ffffff !important; /* панель закладок */
+}
+
+#sidebar-search-container,
+#historyTree {
+  background-color: #EBE6E1; !important;
+  font-family: var(--tab-font); /* шрифт закладок*/
+font-size:14px!important;
+
+}
+
+#sidebar-box{
+  background-color: var(--lwt-sidebar-background-color) !important;
+}
+
+
+
+#permList, scrollbar{
+  scrollbar-color: gray #EBE6E1;
+ }
+
 .sidebar-placesTreechildren::-moz-tree-row { /* высота пунктов боковой панели */
+background-color: #EBE6E1 !important;
     min-height: 18px !important;
     height: 18px !important;
     max-height: 18px !important;
 }
-.hidevscroll-scrollbar { /* Убрать прокрутку */
-  display: none !important;
-}
-#sidebar-box{ /* Настройка размеров при раскрытии */
-  --uc-sidebar-width: 6px; /* ширина в свернутом виде */
-  --uc-sidebar-hover-width: 240px; /* ширина в развернутом виде */
-  --uc-autohide-sidebar-delay: 200ms; /* время скрытия */
-  min-width: var(--uc-sidebar-width) !important;
-  max-width: var(--uc-sidebar-width) !important;
-  z-index:1;
-}
-#main-window[sizemode="fullscreen"] #sidebar-box{ --uc-sidebar-width: 1px; } /* ширина в свернутом виде в полноэкранном режиме */
 
-#sidebar-header{ /* заголовок */
-/*overflow: hidden;
-  color: var(--chrome-color, inherit) !important;
-  padding-inline: 0 !important;
-*/
-  display: none !important; /* скрыть заголовок */
+/* цвет выделенных пунктов */
+.sidebar-placesTreechildren::-moz-tree-row(hover),
+.sidebar-placesTreechildren::-moz-tree-row(selected){
+  background-color: #749187 !important;
+  color: #ffffff !important;
 }
-#sidebar-header,  /* плавность раскрытия  */
-#sidebar{
-  transition: min-width 115ms linear var(--uc-autohide-sidebar-delay) !important;
-  min-width: var(--uc-sidebar-width) !important;
-  will-change: min-width;
-}
-#sidebar-box:hover > #sidebar-header, /* Раскрытие */
-#sidebar-box:hover > #sidebar{
-  min-width: var(--uc-sidebar-hover-width) !important;
-  transition-delay: 0ms !important;
-}
-/*поисковая форма*/
-.sidebar-panel #search-box{
-/*-moz-appearance: none !important;
-  background-color: rgba(249,249,250,0.1) !important; 
-  color: inherit !important;
- */
-  display: none !important;/* скрыть заголовок */
-}
-#sidebar,  /* стиль подложки и рамки */
-#sidebar-header{
-  background-color: #f3f6f4 !important;
- border-inline: 2px solid var(--синий);
-}
+
+.sidebar-placesTreechildren::-moz-tree-cell-text {
+font-family: var(--tab-font); /* шрифт закладок*/
+font-size:14px!important;}
+
 /*---+---+---+---+
  | М | Е | Н | Ю |
  +---+---+---+---*/
-menupopup:not(.in-menulist) > menuitem, menupopup 
-menupopup:not(.in-menulist) > menu {
-  padding-block: 0px !important;    /* высота пробела между пунктами меню */
-  min-height: unset !important;
-}
+
+ /* скрыть лишние элементы*/
 
 #context-bookmarklink, /* убрать из меню пункт добавления ссылки в закладки http://kb.mozillazine.org/Chrome_element_names_and_IDs#Firefox_menus */
 #context-bookmarklink + menuseparator {
   display: none !important;
+}
+#context-openlinkinusercontext-menu {display: none !important;}
+#context-openlink {display: none !important;}
+#context-openlinkprivate { display: none !important; }
+#context-stripOnShareLink {display: none !important;}
+#context-searchselect {display: none !important;}
+#context-savelink {display: none !important;}
+#context-sendpagetodevice {display: none !important;}
+#context-sendlinktodevice {display: none !important;}
+#context-savepage {display: none !important;}
+#context-sendimage, #context-sep-copyimage {display:none !important; }
+#context-setWallpaper {display:none !important; }
+#context-setDesktopBackground {display:none !important; }
+#context-viewsource {display: none !important;}
+#context-viewpartialsource-selection {display: none !important;}
+#context-translate-selection {display: none !important;}
+#context-print-selection {display: none !important;}
+#context-inspect {display: none !important;}
+#inspect-separator  {display: none !important;}
+#context-selectall,#context-sep-selectall,#inspect-separator {display: none !important;}
+
+#placesContext_deleteFolder {display:none !important;}
+#placesContext_openBookmarkContainer:tabs {display:none !important;}
+#placesContext_open:newwindow {display:none !important;}
+#placesContext_open:newprivatewindow {display:none !important;}
+
+
+/* menupopup > *:not(label):not([disabled="false"]):not(.menu-iconic-left):not(.menu-accel-container):not(image){ */
+menupopup > *:not(label){
+    color: #000 !important;
+    padding-block: 0px !important;    /* высота пробела между пунктами меню */
+    min-height: unset !important;
+    font-family: var(--tab-font);
+	font-size: 16px;
+}
+
+
+#sidebar-header { /* не показывать заголовок панели закладок */
+  display: none;
+}
+
+menupopup:not(#BMB_bookmarksPopup) {
+    appearance: none !important;
+    background-color: #EBE6E1 !important;
+    border: 0px solid #ffffff !important;
+    border-radius: 0px !important;
+    background-origin: border-box !important;
+    background-clip: #ffffff !important;
+    margin: 1px !important;
+}
+
+.menupopup-arrowscrollbox:not([part="arrowscrollbox"]),
+.menupopup-arrowscrollbox[exportparts="scrollbox: arrowscrollbox-scrollbox"] {
+    appearance: none !important;
+    background-color: transparent !important;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.4) !important;
+    border-radius: 4px !important;
+    border: 0px solid rgba(0,0,0,0.2) !important;
+    overflow: hidden !important;
+}
+
+menu:hover, menu[open=true], menuitem:hover, menuitem[_moz-menuactive=true] {
+  -moz-appearance: none !important;
+  padding: 0px 0px;
+  border: 0px solid #ffffff !important;
+  border-radius: 0px !important;
+  background: #749187 !important;
+  color: #ffffff !important;
+  font-family: var(--tab-font); /* шрифт выделенного текста*/
+	font-size: 16px;
+}
+
+.browserContainer > findbar {
+ /* -moz-box-ordinal-group:0 !important;  разместить наверху экрана
+ order: -1 !important;
+ -moz-appearance: none !important;
+ appearance: none !important;
+ */
+    padding-block: 0px !important;    /* высота пробела между пунктами меню */
+    min-height: unset !important;
+ background: #EBE6E1 !important;
+   color: #000 !important;
+  font-family: var(--tab-font); /* шрифт выделенного текста*/
+	font-size: 16px;
+}
+
+ :root{
+scrollbar-color: #ffffff
+}
+*{
+scrollbar-width: thin
 }

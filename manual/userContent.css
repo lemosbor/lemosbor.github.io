@@ -19,6 +19,14 @@ a:visited {
  }
 }
 
+@-moz-document url-prefix('chrome://browser/content/blanktab.html'){
+ body {
+  color: #000000 !important;
+  background-color: #EBE6E1 !important;
+}
+}
+
+
 body.serif
        { font-family:"AcademyC" !important;
        }
@@ -29,7 +37,9 @@ body.serif
        }
 
 
-html, body{scrollbar-color: #7C8790 #f9f9fb;}
+html, body{
+scrollbar-color: #7C8790 transparent;
+}
 
 
 :root[lwtheme-brighttext]{
