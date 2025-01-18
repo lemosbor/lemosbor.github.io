@@ -8,6 +8,7 @@
 - тепловизор
 - очки плавотельные
 - очки спортивные и линзы
+
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 - батарейки
 
@@ -25,7 +26,7 @@
 # Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="30"/>
 
 # Д<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ВМФ_Добро.svg" width="30"/>
-Провода аналоговые
+- провода аналоговые
 
 # E<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/ВМФ_Есть.svg" width="30"/> 
 (Концелярские)
@@ -124,7 +125,6 @@
 
 # Ѣ<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/ВМФ_1-й_дополнительный.svg" width="30"/>
    
-
 # Э<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/ВМФ_Э_оборотное.svg" width="30"/>
 - кабели и клеммы
 - съёмник изоляции
@@ -167,7 +167,6 @@
 - навигатор гармин красный
 плв | мансарда
 
-
 # Ѳ<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Naval_Jack_of_Russia.svg" width="30"/>
 
 # Ѵ<img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/ВМФ_2-й_дополнительный.svg" width="30"/>
@@ -204,9 +203,8 @@
 
 # Вз<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/ВМФ_Воздушный.svg" width="30"/>
 - копт
-- пульт
-- лак
 - очки
+- запчасти
 
 # Шл<img src="https://upload.wikimedia.org/wikipedia/commons/2/22/ВМФ_Шлюпочный.svg" width="30"/>
 
