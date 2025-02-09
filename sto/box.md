@@ -8,6 +8,7 @@
 - тепловизор
 - очки плавотельные
 - очки спортивные и линзы
+
 # Б<img src="https://upload.wikimedia.org/wikipedia/commons/a/a6/ВМФ_Буки.svg" width="30"/>
 - батарейки
 
@@ -21,19 +22,11 @@
 - крокадильчики
 - обрезки проводов
 - конекторы телефонные
+
 # Г<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ВМФ_Глаголь.svg" width="30"/>
-- клеи
-- пластилин
-- двусторонний скотч, изолента, скотч
-- фторопластовая пластинка
-- герметик
-- стяжки
-- наждачная бумага
-- обрезки резины
-- фиксатор резьбы
 
 # Д<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/ВМФ_Добро.svg" width="30"/>
-Провода аналоговые
+- провода аналоговые
 
 # E<img src="https://upload.wikimedia.org/wikipedia/commons/1/12/ВМФ_Есть.svg" width="30"/> 
 (Концелярские)
@@ -73,7 +66,6 @@
 - кабура
 - фонарики
 - термометр сантехнический (0—120)
-- парафин лыжный
 
 # О<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/ВМФ_Он.svg" width="30"/>
 - одеколон
@@ -131,12 +123,14 @@
 - лазерная рулетка
 - штангенциркуль
 
+# Ѣ<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/ВМФ_1-й_дополнительный.svg" width="30"/>
+   
 # Э<img src="https://upload.wikimedia.org/wikipedia/commons/8/80/ВМФ_Э_оборотное.svg" width="30"/>
 - кабели и клеммы
 - съёмник изоляции
 - обжимщик клемм
 
-# Ь
+# Ь<img src="https://upload.wikimedia.org/wikipedia/commons/6/69/ВМФ_Мягкий_знак.svg" width="30"/>
 - ключ 6-гранный на 10 мм (для разбора задней втулки)
 - ключ для отвинчвания колпачка задней втулки
 - ключ (насадка) для развинчивания кассеты
@@ -153,7 +147,7 @@
 - латки для надувных матрасов
 - двусторонний скотч
 
-# Ы
+# Ы<img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/ВМФ_4-й_дополнительный.svg" width="30"/>
 - объеткивы
 - средства чистки фотоаппарата
 - вспышка
@@ -173,9 +167,14 @@
 - навигатор гармин красный
 плв | мансарда
 
-# Ѣ<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/ВМФ_1-й_дополнительный.svg" width="30"/>
-- 
-# 0
+# Ѳ<img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Naval_Jack_of_Russia.svg" width="30"/>
+
+# Ѵ<img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/ВМФ_2-й_дополнительный.svg" width="30"/>
+- камеры велосипеда
+- держатель Garmin
+- картридж фильтра угольный
+
+# 0<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/ВМФ_0.svg" width="30"/>
 - лампы стветодиодные под галогенные
 - вилки проводов
 - наклейки для шкафов
@@ -185,11 +184,29 @@
 - обрезки силовых проводов
 - дюбели и гвоздики
 
-# Вз
+# 2<img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/ВМФ_2.svg" width="30"/>
+- сушилка обуви
+- парафин лыжный
+- зарядка ноутбука
+- губка железная
+
+# 8<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/ВМФ_8.svg" width="30"/>
+- клеи
+- пластилин
+- двусторонний скотч, изолента, скотч
+- фторопластовая пластинка
+- герметик
+- стяжки
+- наждачная бумага
+- обрезки резины
+- фиксатор резьбы
+
+# Вз<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/ВМФ_Воздушный.svg" width="30"/>
 - копт
-- пульт
-- лак
 - очки
+- запчасти
+
+# Шл<img src="https://upload.wikimedia.org/wikipedia/commons/2/22/ВМФ_Шлюпочный.svg" width="30"/>
 
 # Спортивный ящик (сени)
 - диаболо
