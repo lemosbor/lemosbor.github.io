@@ -1,7 +1,7 @@
 <html>
 
 
-<table style="font-family: 'Bahnschrift'; font-weight: normal; font-stretch:90%">
+<table style="font-family:'DIN Condensed', 'Bahnschrift'; font-weight: normal; font-stretch:90%">
 
                                            <tr><td>«Мой дядя самыхъ честныхъ правилъ,</td><td>“My uncle has most honest principles: </td></tr>
 <tr><td>«Когда не вшутку занемогъ,</td><td>when taken ill in earnest, </td></tr>
