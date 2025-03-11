@@ -9,7 +9,7 @@ padding-top: 2px;
 
 </style>
 <body style=" padding-right: 0px;margin-right: 0px;margin-left: 0px;padding-left: 0px;;">
-<table style="font-family: 'DIN Condensed', 'Bahnschrift'; font-size:1.2rem;  font-weight: normal; font-stretch:90%; width: 100%; line-height: 0.9em;">
+<table style="font-family: 'DIN Condensed', 'Bahnschrift';  font-weight: normal; font-stretch:90%; width: 100%; line-height: 0.9em;">
 
 
 <tr><td>«Мой дядя самыхъ честныхъ правилъ,</td><td>“My uncle has most honest principles: </td></tr>
@@ -5951,6 +5951,6 @@ padding-top: 2px;
 
 </table>
 
-
+</body>
 
 </html>
