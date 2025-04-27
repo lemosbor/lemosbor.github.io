@@ -30,6 +30,7 @@ HKEY_CURRENT_USER\Control Panel\Desktop\CaretTimeout задается тайма
     AutoRepeatDelay= 200
     AutoRepeatRate= 10
     Flags= 59
+https://superuser.com/questions/1058474/increase-keyboard-repeat-rate-beyond-control-panel-limits-in-windows-10
 
 ## Авто-активаци окна под курсором
 Window+r, then type “control panel” to open it.

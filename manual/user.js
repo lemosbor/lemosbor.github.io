@@ -12,7 +12,7 @@ user_pref("browser.sessionstore.interval", 120000); // периодчиност�
 user_pref("browser.tabs.closeWindowWithLastTab", false); // не закрывать браузер при закрытии последней вкладки
 user_pref("browser.tabs.tabMinWidth", 50); // минимальная ширина вкладки в сжатом состоянии
 user_pref("browser.tabs.insertAfterCurrent", true); // добавлять новую вкладку после текущей
-user_pref("browser.tabs.loadBookmarksInBackground", true); // при открытии закладок оставаться на исходной открытой вкладке до завершения и открываться только при нажатии на вкладку
+user_pref("browser.tabs.loadBookmarksInBackground", true); // при открытии закладок оставаться на исходной открытой вкладке до завершения и открываться только при нажатии на вкладку. Открывать ссыки в фоне
 user_pref("browser.tabs.loadBookmarksInTabs", true); //открывать закладки в новых вкладках
 user_pref("browser.tabs.loadDivertedInBackground", true); // открывать вкладку в фоне
 user_pref("browser.tabs.min_inactive_duration_before_unload", 30000); // частота обновления (?)
@@ -42,8 +42,8 @@ user_pref("image.jxl.enabled", true); // приоритет JPEG XL
 // user_pref("browser.cache.disk.enable", false);  // использования кеша памяти вместо кеша диска (проверить)
 // user_pref("browser.cache.memory.enable", true); 1 //использования кеша памяти вместо кеша диска (проверить)
 // user_pref("browser.urlbar.suggest... ", true); // настройки предложений
-// user_pref("network.http.rcwn.enabled", false);  // 
-// user_pref("network.buffer.cache.size", 262144); // сетевое ускорение 
+// user_pref("network.http.rcwn.enabled", false);  //
+// user_pref("network.buffer.cache.size", 262144); // сетевое ускорение
 // user_pref("network.buffer.cache.count", 128); // сетевое ускорение
 // user_pref("network.http.max-connections", 1800); // сетевое ускорение
 // user_pref("network.http.max-connections-per-server", 32); //  сетевое ускорение
@@ -52,7 +52,7 @@ user_pref("image.jxl.enabled", true); // приоритет JPEG XL
 // user_pref("network.http.pacing.requests.burst", 16); // сетевое ускорение
 // user_pref("network.http.pacing.requests.min-parallelism", 8); // сетевое ускорение
 // user_pref("network.websocket.max-connections", 256); // сетевое ускорение
-// user_pref("network.ssl_tokens_cache_capacity", 32768); // сетевое ускорение 
+// user_pref("network.ssl_tokens_cache_capacity", 32768); // сетевое ускорение
 // user_pref("gfx.font_rendering.cleartype_params.rendering_mode", 5); // настройка сглаживания шрифтов как они задуманы
 // user_pref("browser.tabs.loadBookmarksInTabs", true); // открывать адрес в новой вкладке:
 // user_pref("layout.css.visited_links_enabled", false);  // не отображать посещенные ссылки
