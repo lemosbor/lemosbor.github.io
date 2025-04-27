@@ -149,6 +149,14 @@
     ffmpeg -i input.flac -ab 320k result.mp3
     for %A IN (*.flac) DO ffmpeg -i "%~nA.flac" -ab 320k "%~nA.mp3"
 
+    ffmpeg -i audio.flac -ab 320k -map_metadata 0 -id3v2_version 3 audio.mp3
+
+    для конвертации всего альбома:
+    for file in album/*.flac; do
+        ffmpeg -i "$file" -ab 320k -map_metadata 0 -id3v2_version 3 "$(basename "$file" .flac).mp3"
+    done
+
+
 ### Объединить mp3 файлы (из перечня list.txt) в один файл
     ffmpeg -f concat -i list.txt out.mp3
 
