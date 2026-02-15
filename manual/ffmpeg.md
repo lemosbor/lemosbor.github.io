@@ -11,9 +11,18 @@
 ### Обрезать и кадрировать и сохранить в gif
     ffmpeg -i MVI_5883.mov -ss 00:00:09 -to 00:00:13 -vf crop=200:120:800:390 -pix_fmt rgb24 output.gif
 
+    где 200 - ширина, 120 — высота, 800 — отступ по ширине, 390 — отступ по высоте
+
+ffmpeg -i 01.mp4 -vf crop=400:400:0:300 output.gif
+ffmpeg -i 01.mp4 -vf "crop=400:400:0:300,fps=10" -loop 0 compressed.gif
+ffmpeg -i 01.mp4 -an -vf crop=400:400:0:300 01.mp4
+ffmpeg -i 02.mp4 -an -vf crop=400:400:20:0 002.mp4
+
+C:\Programs\im\mogrify.exe -layers optimize -fuzz 10% output.gif
+
     mogrify -layers optimize -fuzz 10% output.gif
     уменьшить размер gif
-
+ 
 ### конвертироват в mkv
     ffmpeg -i "название видео.mp4" -c:v libx265 -с:a copy "название итогового видео.mkv"
 
